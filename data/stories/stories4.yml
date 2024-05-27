@@ -1,0 +1,667 @@
+version: "3.1"
+
+stories:
+
+- story: User asks about the Domestic Violence Act
+  steps:
+  - intent: inform_about_womensact
+  - action: utter_inform_about_womensact
+
+- story: User seeks help
+  steps:
+  - intent: seek_help
+  - action: utter_seek_help
+
+- story: User wants to report domestic violence
+  steps:
+  - intent: report_abuse
+  - action: utter_report_abuse
+
+- story: User inquires about the extent of the Act
+  steps:
+  - intent: womens_extent
+  - action: utter_womens_extent
+
+- story: User asks about the commencement date of the Act
+  steps:
+  - intent: womens_commencement
+  - action: utter_womens_commencement
+
+- story: User asks about the definition of an aggrieved person
+  steps:
+  - intent: aggrieved_person_definition
+  - action: utter_aggrieved_person_definition
+
+- story: User inquires about the definition of a domestic relationship
+  steps:
+  - intent: domestic_relationship_definition
+  - action: utter_domestic_relationship_definition
+
+
+- story: User asks about the definition of domestic violence
+  steps:
+  - intent: domestic_violence_definition
+  - action: utter_domestic_violence_definition
+
+- story: User asks about the definition of child
+  steps:
+  - intent: child_definition
+  - action: utter_child_definition
+
+- story: User asks about the definition of compensation_order
+  steps:
+  - intent: compensation_order_definition
+  - action: utter_compensation_order_definition
+
+- story: User asks about the definition of custody_order
+  steps:
+  - intent: custody_order_definition
+  - action: utter_custody_order_definition
+
+- story: User asks about the definition of domestic_incident_report
+  steps:
+  - intent: domestic_incident_report_definition
+  - action: utter_domestic_incident_report_definition
+
+- story: User asks about the definition of dowry
+  steps:
+  - intent: dowry_definition
+  - action: utter_dowry_definition
+
+- story: User asks about the definition of magistrate
+  steps:
+  - intent: magistrate_definition
+  - action: utter_magistrate_definition
+
+- story: User asks about the definition of medical_facility
+  steps:
+  - intent: medical_facility_definition
+  - action: utter_medical_facility_definition
+
+- story: User asks about the definition of monetary_relief
+  steps:
+  - intent: monetary_relief_definition
+  - action: utter_monetary_relief_definition
+
+- story: User asks about the definition of notification
+  steps:
+  - intent: notification_definition
+  - action: utter_notification_definition
+
+
+- story: User asks about the definition of prescribed
+  steps:
+  - intent: prescribed_definition
+  - action: utter_prescribed_definition
+
+- story: User asks about the definition of protection_officer
+  steps:
+  - intent: protection_officer_definition
+  - action: utter_protection_officer_definition
+
+- story: User asks about the definition of protection_order
+  steps:
+  - intent: protection_order_definition
+  - action: utter_protection_order_definition
+
+
+- story: User asks about the definition of respondent
+  steps:
+  - intent: respondent_definition
+  - action: utter_respondent_definition
+
+- story: User asks about the definition of service_provider
+  steps:
+  - intent: service_provider_definition
+  - action: utter_service_provider_definition
+
+- story: User asks about the definition of shared_household
+  steps:
+  - intent: shared_household_definition
+  - action: utter_shared_household_definition
+
+- story: User asks about the definition of shelter_home
+  steps:
+  - intent: shelter_home_definition
+  - action: utter_shelter_home_definition
+
+- story: User asks about the physical_abuse
+  steps:
+  - intent: physical_abuse
+  - action: utter_physical_abuse
+
+- story: User asks about the sexual_abuse
+  steps:
+  - intent: sexual_abuse
+  - action: utter_sexual_abuse
+
+- story: User asks about the verbal_and_emotional_abuse
+  steps:
+  - intent: verbal_and_emotional_abuse
+  - action: utter_verbal_and_emotional_abuse
+
+- story: User asks about the economic_abuse
+  steps:
+  - intent: economic_abuse
+  - action: utter_economic_abuse
+
+- story: User asks about the domestic_violence_cases
+  steps:
+  - intent: domestic_violence_cases
+  - action: utter_domestic_violence_cases
+
+
+- story: User asks about the domestic_violence_related_cases
+  steps:
+  - intent: domestic_violence_related_cases
+  - action: utter_domestic_violence_related_cases
+
+
+- story: User asks about the information_to_protection_officer
+  steps:
+  - intent: information_to_protection_officer
+  - action: utter_information_to_protection_officer
+
+- story: User asks about the exclusion_of_liability
+  steps:
+  - intent: exclusion_of_liability
+  - action: utter_exclusion_of_liability
+
+- story: User asks about the duties_of_police_officers
+  steps:
+  - intent: duties_of_police_officers
+  - action: utter_duties_of_police_officers
+
+- story: User asks about the duties_of_service_providers
+  steps:
+  - intent: duties_of_service_providers
+  - action: utter_duties_of_service_providers
+
+- story: User asks about the duties_of_magistrate
+  steps:
+  - intent: duties_of_magistrate
+  - action: utter_duties_of_magistrate
+
+- story: User asks about the rights_of_aggrieved_person
+  steps:
+  - intent: rights_of_aggrieved_person
+  - action: utter_rights_of_aggrieved_person
+
+- story: User asks about legal_services_rights
+  steps:
+  - intent: legal_services_rights
+  - action: utter_legal_services_rights
+
+- story: User asks about filing_complaint_under_IPC
+  steps:
+  - intent: filing_complaint_under_IPC
+  - action: utter_filing_complaint_under_IPC
+
+- story: Greet and Inquire about Duties of Shelter Homes
+  steps:
+  - intent: duties_of_shelter_homes
+  - action: utter_duties_of_shelter_homes
+
+- story: Greet and Inquire about Duties of Medical Facilities
+  steps:
+  - intent: duties_of_medical_facilities
+  - action: utter_duties_of_medical_facilities
+
+- story: Greet and Inquire about Appointment of Protection Officers
+  steps:
+  - intent: appointment_of_protection_officers
+  - action: utter_appointment_of_protection_officers
+
+- story: Greet and Inquire about duties_of_protection_officers
+  steps:
+  - intent: duties_of_protection_officers
+  - action: utter_duties_of_protection_officers
+
+- story: Greet and Inquire about assist_magistrate
+  steps:
+  - intent: assist_magistrate
+  - action: utter_assist_magistrate
+
+- story: Greet and Inquire about make_domestic_incident_report
+  steps:
+  - intent: make_domestic_incident_report
+  - action: utter_make_domestic_incident_report
+
+- story: Greet and Inquire about make_application_for_protection_order
+  steps:
+  - intent: make_application_for_protection_order
+  - action: utter_make_application_for_protection_order
+
+- story: Greet and Inquire about provide_legal_aid
+  steps:
+  - intent: provide_legal_aid
+  - action: utter_provide_legal_aid
+
+
+- story: Greet and Inquire about maintain_list_of_service_providers
+  steps:
+  - intent: maintain_list_of_service_providers
+  - action: utter_maintain_list_of_service_providers
+
+- story: Greet and Inquire about provide_safe_shelter_home
+  steps:
+  - intent: provide_safe_shelter_home
+  - action: utter_provide_safe_shelter_home
+
+- story: Greet and Inquire about get_medically_examined
+  steps:
+  - intent: get_medically_examined
+  - action: utter_get_medically_examined
+
+- story: Greet and Inquire about ensure_compliance_with_monetary_relief_order
+  steps:
+  - intent: ensure_compliance_with_monetary_relief_order
+  - action: utter_ensure_compliance_with_monetary_relief_order
+
+
+- story: Greet and Inquire about perform_other_duties
+  steps:
+  - intent: perform_other_duties
+  - action: utter_perform_other_duties
+
+
+
+- story: Greet and Inquire about service_provider_registration
+  steps:
+  - intent: service_provider_registration
+  - action: utter_service_provider_registration
+
+- story: Greet and Inquire about service_provider_powers
+  steps:
+  - intent: service_provider_powers
+  - action: utter_service_provider_powers
+
+- story: Greet and Inquire about legal_protection_service_providers
+  steps:
+  - intent: legal_protection_service_providers
+  - action: utter_legal_protection_service_providers
+
+- story: Greet and Inquire about types_of_cases_faced_by_women
+  steps:
+  - intent: types_of_cases_faced_by_women
+  - action: utter_types_of_cases_faced_by_women
+
+- story: Greet and Inquire about government_duties_publicity
+  steps:
+  - intent: government_duties_publicity
+  - action: utter_government_duties_publicity
+
+- story: Greet and Inquire about government_duties_training
+  steps:
+  - intent: government_duties_training
+  - action: utter_government_duties_training
+
+- story: Greet and Inquire about government_duties_coordination
+  steps:
+  - intent: government_duties_coordination
+  - action: utter_government_duties_coordination
+
+- story: Greet and Inquire about government_duties_protocols
+  steps:
+  - intent: government_duties_protocols
+  - action: utter_government_duties_protocols
+
+- story: Greet and Inquire about types_of_cases_faced_by_women_government_duties
+  steps:
+  - intent: types_of_cases_faced_by_women_government_duties
+  - action: utter_types_of_cases_faced_by_women_government_duties
+
+
+
+- story: Greet and Inquire about application_to_magistrate
+  steps:
+  - intent: application_to_magistrate
+  - action: utter_application_to_magistrate
+
+
+- story: Greet and Inquire about application_content
+  steps:
+  - intent: application_content
+  - action: utter_application_content
+
+
+- story: Greet and Inquire about application_timeframe
+  steps:
+  - intent: application_timeframe
+  - action: utter_application_timeframe
+
+
+- story: Greet and Inquire about service_of_notice
+  steps:
+  - intent: service_of_notice
+  - action: utter_service_of_notice
+
+
+- story: Greet and Inquire about counselling
+  steps:
+  - intent: counselling
+  - action: utter_counselling
+
+
+- story: Greet and Inquire about assistance_of_welfare_expert
+  steps:
+  - intent: assistance_of_welfare_expert
+  - action: utter_assistance_of_welfare_expert
+
+
+- story: Greet and Inquire about proceedings_in_camera
+  steps:
+  - intent: proceedings_in_camera
+  - action: utter_proceedings_in_camera
+
+
+- story: Greet and Inquire about right_to_reside_in_shared_household
+  steps:
+  - intent: right_to_reside_in_shared_household
+  - action: utter_right_to_reside_in_shared_household
+
+- story: Greet and Inquire about protection_orders
+  steps:
+  - intent: protection_orders
+  - action: utter_protection_orders
+
+- story: Greet and Inquire about cases_suited_for_protection_orders
+  steps:
+  - intent: cases_suited_for_protection_orders
+  - action: utter_cases_suited_for_protection_orders
+
+- story: Greet and Inquire about inquire_residence_order
+  steps:
+  - intent: inquire_residence_order
+  - action: utter_inquire_residence_order
+
+
+- story: User asks about the inquire_protection_order
+  steps:
+  - intent: inquire_protection_order
+  - action: utter_inquire_protection_order
+
+- story: User asks about the inquire_stridhan_return
+  steps:
+  - intent: inquire_stridhan_return
+  - action: utter_inquire_stridhan_return
+
+- story: User asks about the help_women_domestic_violence
+  steps:
+  - intent: help_women_domestic_violence
+  - action: utter_help_women_domestic_violence
+
+- story: User asks about the seek_legal_aid
+  steps:
+  - intent: seek_legal_aid
+  - action: utter_seek_legal_aid
+
+- story: User asks about report_domestic_violence
+  steps:
+  - intent: report_domestic_violence
+  - action: utter_report_domestic_violence
+
+- story: User asks about the express_gratitude
+  steps:
+  - intent: express_gratitude
+  - action: utter_express_gratitude
+
+- story: User asks about the list_residence_order_provisions
+  steps:
+  - intent: list_residence_order_provisions
+  - action: utter_list_residence_order_provisions
+
+- story: User asks about the explain_additional_conditions
+  steps:
+  - intent: explain_additional_conditions
+  - action: utter_explain_additional_conditions
+
+- story: User asks about the inquire_police_assistance
+  steps:
+  - intent: inquire_police_assistance
+  - action: utter_inquire_police_assistance
+
+
+- story: User asks about the inquire_return_property
+  steps:
+  - intent: inquire_return_property
+  - action: utter_inquire_return_property
+
+- story: User asks about the inquire_rent_obligations
+  steps:
+  - intent: inquire_rent_obligations
+  - action: utter_inquire_rent_obligations
+
+
+- story: User asks about the inquire_execution_bond
+  steps:
+  - intent: inquire_execution_bond
+  - action: utter_inquire_execution_bond
+
+- story: User asks about the inquire_magistrate_powers
+  steps:
+  - intent: inquire_magistrate_powers
+  - action: utter_inquire_magistrate_powers
+
+
+- story: User asks about the inquire_domestic_violence
+  steps:
+  - intent: inquire_domestic_violence
+  - action: utter_inquire_domestic_violence
+
+
+ # User inquires about monetary relief
+- story: Inquire about monetary relief
+  steps:
+  - intent: inquire_monetary_relief
+  - action: utter_inquire_monetary_relief
+
+  # User asks for details about expenses covered under monetary relief
+- story: List expenses covered under monetary relief
+  steps:
+  - intent: list_monetary_relief_expenses
+  - action: utter_list_monetary_relief_expenses
+
+# User seeks information about maintenance orders under monetary relief
+- story: Inquire about maintenance orders
+  steps:
+  - intent: inquire_maintenance_order
+  - action: utter_inquire_maintenance_order
+
+# User asks about the standard of living in monetary relief cases
+- story: Specify standard of living
+  steps:
+  - intent: specify_standard_of_living
+  - action: utter_specify_standard_of_living
+
+# User seeks details about payment options for monetary relief
+- story: Specify payment options
+  steps:
+  - intent: specify_payment_options
+  - action: utter_specify_payment_options
+
+# User asks about receiving a copy of the monetary relief order
+- story: Inquire about receiving order copy
+  steps:
+  - intent: inquire_order_copy
+  - action: utter_inquire_order_copy
+
+# User asks about the payment deadline in monetary relief cases
+- story: Inquire about payment deadline
+  steps:
+  - intent: inquire_payment_deadline
+  - action: utter_inquire_payment_deadline
+
+# User seeks information about enforcement actions for non-payment
+- story: Specify enforcement action for non-payment
+  steps:
+  - intent: specify_enforcement_action
+  - action: utter_specify_enforcement_action
+
+
+  # User inquires about custody orders
+- story: Inquire about custody orders
+  steps:
+  - intent: inquire_custody_orders
+  - action: utter_inquire_custody_orders
+
+# User asks for details about compensation orders
+- story: Inquire about compensation orders
+  steps:
+  - intent: inquire_compensation_orders
+  - action: utter_inquire_compensation_orders
+
+# User seeks information about interim and ex parte orders
+- story: Inquire about interim and ex parte orders
+  steps:
+  - intent: inquire_interim_ex_parte_orders
+  - action: utter_inquire_interim_ex_parte_orders
+
+# User asks about receiving free copies of orders
+- story: Inquire about free copies of orders
+  steps:
+  - intent: inquire_free_copy_orders
+  - action: utter_inquire_free_copy_orders
+
+# User asks about the duration of protection orders
+- story: Inquire about the duration of protection orders
+  steps:
+  - intent: inquire_order_duration
+  - action: utter_inquire_order_duration
+
+# User seeks information about altering orders
+- story: Inquire about altering orders
+  steps:
+  - intent: inquire_alteration_orders
+  - action: utter_inquire_alteration_orders
+
+# User asks about seeking relief in other legal proceedings
+- story: Inquire about seeking relief in other legal proceedings
+  steps:
+  - intent: inquire_relief_in_other_proceedings
+  - action: utter_inquire_relief_in_other_proceedings
+
+# User asks about jurisdiction for granting protection orders
+- story: Inquire about jurisdiction for protection orders
+  steps:
+  - intent: inquire_jurisdiction
+  - action: utter_inquire_jurisdiction
+
+# User seeks information about the procedure for proceedings
+- story: Inquire about procedure for proceedings
+  steps:
+  - intent: inquire_procedure
+  - action: utter_inquire_procedure
+
+# User asks about the appeal process
+- story: Inquire about the appeal process
+  steps:
+  - intent: inquire_appeal
+  - action: utter_inquire_appeal
+
+
+
+  # User inquires about Protection Officers
+- story: Inquire about Protection Officers
+  steps:
+  - intent: inquire_protection_officers
+  - action: utter_inquire_protection_officers
+
+# User asks about penalty for breaching a protection order
+- story: Inquire about penalty for breaching protection order
+  steps:
+  - intent: inquire_penalty_breach_protection_order
+  - action: utter_inquire_penalty_breach_protection_order
+
+# User seeks information about cognizance and proof for the offence
+- story: Inquire about cognizance and proof for the offence
+  steps:
+  - intent: inquire_cognizance_proof
+  - action: utter_inquire_cognizance_proof
+
+# User asks about penalty for Protection Officers not discharging their duties
+- story: Inquire about penalty for Protection Officers not discharging duties
+  steps:
+  - intent: inquire_penalty_protection_officer_duty
+  - action: utter_inquire_penalty_protection_officer_duty
+
+# User seeks information about cognizance of offences committed by Protection Officers
+- story: Inquire about cognizance of offences committed by Protection Officers
+  steps:
+  - intent: inquire_cognizance_offence_protection_officer
+  - action: utter_inquire_cognizance_offence_protection_officer
+
+# User asks about protection for actions taken in good faith
+- story: Inquire about protection for actions taken in good faith
+  steps:
+  - intent: inquire_protection_action_good_faith
+  - action: utter_inquire_protection_action_good_faith
+
+# User asks about the relationship between this Act and other laws
+- story: Inquire about the relationship between this Act and other laws
+  steps:
+  - intent: inquire_act_not_in_derogation
+  - action: utter_inquire_act_not_in_derogation
+
+
+
+  # User inquires about Central Government rules
+- story: Inquire about Central Government rules
+  steps:
+  - intent: inquire_central_government_rules
+  - action: utter_inquire_central_government_rules
+
+# User asks about qualifications for Protection Officers in the rules
+- story: Inquire about qualifications for Protection Officers
+  steps:
+  - intent: inquire_central_government_rules_qualifications
+  - action: utter_inquire_central_government_rules_qualifications
+
+# User seeks information about service conditions for Protection Officers in the rules
+- story: Inquire about service conditions for Protection Officers
+  steps:
+  - intent: inquire_central_government_rules_service_conditions
+  - action: utter_inquire_central_government_rules_service_conditions
+
+# User asks about making a domestic incident report according to the rules
+- story: Inquire about making a domestic incident report
+  steps:
+  - intent: inquire_central_government_rules_domestic_incident_report
+  - action: utter_inquire_central_government_rules_domestic_incident_report
+
+# User seeks information about making an application for a protection order as per the rules
+- story: Inquire about making an application for a protection order
+  steps:
+  - intent: inquire_central_government_rules_application_protection_order
+  - action: utter_inquire_central_government_rules_application_protection_order
+
+# User asks about other matters covered by the rules
+- story: Inquire about other matters covered by the rules
+  steps:
+  - intent: inquire_central_government_rules_other_matters
+  - action: utter_inquire_central_government_rules_other_matters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

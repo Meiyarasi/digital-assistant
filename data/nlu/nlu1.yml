@@ -1,0 +1,80 @@
+version: "3.1"
+
+nlu:
+
+- intent: inform
+  examples: |
+    - What is the punishment for fight?
+    - I need legal assistance
+    - I have a question about the law
+    - Can you help me with a legal matter?
+
+- intent: provide_age_punishment
+  examples: |
+    - Person A is [twenty one](age_a) and Person B is [twenty five](age_b)
+    - Age of person A is [twenty five](age_a) and age of person B is [twenty eight](age_b)
+    - They are [twenty five](age_a) and [twenty eight](age_b)
+    - Person A, aged [third five](age_a) , committed the crime, while Person B, aged [fourty](age_b) , was the victim.
+    - The offender is [twenty two](age_a) years old, while the victim is [twenty seven](age_b).
+    - Person A, [fourty five](age_a) , was found guilty, and Person B, [fifty](age_b), was the witness.
+    - At the time of the incident, Person A was [thirty eight](age_a) and Person B was [fourty two](age_b) .
+
+
+- intent: provide_gender
+  examples: |
+    - Person A is [male](gender_a) and Person B is [male](gender_b)
+    - Person A is [female](gender_a) and Person B is [female](gender_b)
+    - They are [male](gender_a) and [male](gender_b)
+
+- intent: provide_weapon
+  examples: |
+    - They used a [knife](weapon)
+    - The weapon used was a [bat](weapon)
+    - There was no weapon used
+
+- intent: register_marriage
+  examples: |
+    - How to register my marriage?
+    - Can you help me with marriage registration?
+
+- intent: provide_age_marriage
+  examples: |
+    - I tied the knot at [30](partner_a), while my spouse was [28](partner_b) .
+    - My partner and I got married when I was [25](partner_a) and they were [27](partner_b) .
+    - When we exchanged vows, I was [32](partner_a) and my partner was [30](partner_b) .
+    - At the time of our wedding, I was [25](partner_a) and my spouse was [22](partner_b) .
+    - My age is [21](partner_a) and My partner age is [19](partner_b)
+    - I was [20](partner_a) and My partner age was [23](partner_b) when I got married
+
+- intent: provide_marriage_location
+  examples: |
+    - The marriage happened at the [temple](marriage_location)
+    - We got married at the [bride's house](marriage_location)
+    - We got married at the [groom's house](marriage_location)
+    - [bride's house](marriage_location)
+
+- intent: provide_relation
+  examples: |
+    - I am the [uncle's son](relation)
+    - She is my [aunty's daughter](relation)
+
+- intent: confirm_mental_condition
+  examples: |
+    - [Yes](mental) , I was in a good mental condition
+    - [Yes](mental) ,My mind was fine during the marriage
+    - [Yes](mental)
+
+- intent: confirm_forced_marriage
+  examples: |
+    - [No](force) , my marriage was not forced
+    - [Yes](force) ,It was a consensual marriage
+    - [No](force)
+  
+- intent: provide_marriage_type
+  examples: |
+    - It was a [community based](marriage_type) marriage
+    - We had a [suyamariyatha](marriage_type) marriage
+    - [community based](marriage_type)
+    - [suyamariyatha](marriage_type)
+
+

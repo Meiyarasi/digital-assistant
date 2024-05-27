@@ -1,0 +1,237 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: Request information
+  steps:
+  - intent: request_information
+  - action: utter_request_information
+  - action: utter_ask_more_questions
+
+- story: Request mode - Written
+  steps:
+  - intent: request_mode_written
+  - action: utter_request_mode_written
+  - action: utter_ask_more_questions
+
+- story: Request mode - Electronic
+  steps:
+  - intent: request_mode_electronic
+  - action: utter_request_mode_electronic
+  - action: utter_ask_more_questions
+
+- story: Request language - English
+  steps:
+  - intent: request_language_english
+  - action: utter_request_language_english
+  - action: utter_ask_more_questions
+
+- story: Request language - Hindi
+  steps:
+  - intent: request_language_hindi
+  - action: utter_request_language_hindi
+  - action: utter_ask_more_questions
+
+- story: Request language - Official
+  steps:
+  - intent: request_language_official
+  - action: utter_request_language_official
+  - action: utter_ask_more_questions
+
+- story: Accompany fee
+  steps:
+  - intent: accompany_fee
+  - action: utter_accompany_fee
+  - action: utter_ask_more_questions
+
+
+- story: Exemption from disclosure - Prejudicial Affect
+  steps:
+  - intent: exemption_prejudicial_affect
+  - action: utter_exemption_prejudicial_affect
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Forbidden by Court
+  steps:
+  - intent: exemption_forbidden_by_court
+  - action: utter_exemption_forbidden_by_court
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Breach of Privilege
+  steps:
+  - intent: exemption_breach_of_privilege
+  - action: utter_exemption_breach_of_privilege
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Commercial Confidence
+  steps:
+  - intent: exemption_commercial_confidence
+  - action: utter_exemption_commercial_confidence
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Fiduciary Relationship
+  steps:
+  - intent: exemption_fiduciary_relationship
+  - action: utter_exemption_fiduciary_relationship
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Foreign Government
+  steps:
+  - intent: exemption_foreign_government
+  - action: utter_exemption_foreign_government
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Endanger Life
+  steps:
+  - intent: exemption_endanger_life
+  - action: utter_exemption_endanger_life
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Impede Investigation
+  steps:
+  - intent: exemption_impede_investigation
+  - action: utter_exemption_impede_investigation
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Cabinet Papers
+  steps:
+  - intent: exemption_cabinet_papers
+  - action: utter_exemption_cabinet_papers
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Personal Information
+  steps:
+  - intent: exemption_personal_information
+  - action: utter_exemption_personal_information
+  - action: utter_ask_more_questions
+
+- story: Exemption from disclosure - Denied to Parliament
+  steps:
+  - intent: exemption_denied_to_parliament
+  - action: utter_exemption_denied_to_parliament
+  - action: utter_ask_more_questions
+
+- story: Supported Languages Inquiry
+  steps:
+  - intent: supported_languages
+  - action: utter_supported_languages
+  - action: utter_ask_more_questions
+
+- story: Supported Modes Inquiry
+  steps:
+  - intent: supported_modes
+  - action: utter_supported_modes
+  - action: utter_ask_more_questions
+
+
+- story: CPIO and SPIO Information
+  steps:
+  - intent: identify_cpio_spio
+  - action: utter_cpio_spio_info
+  - action: utter_ask_more_questions
+
+- story: No Reason Required
+  steps:
+  - intent: no_reason_required
+  - action: utter_no_reason_required
+  - action: utter_ask_more_questions
+
+- story: Minimal Personal Details Required
+  steps:
+  - intent: minimal_personal_details
+  - action: utter_minimal_personal_details
+  - action: utter_ask_more_questions
+
+- story: User appeals against denial
+  steps:
+  - intent: appeal_denial
+  - action: utter_appeal_denial
+  - action: utter_ask_more_questions
+
+- story: User inquires about public authority
+  steps:
+  - intent: public_authority
+  - action: utter_public_authority
+  - action: utter_ask_more_questions
+
+- story: User asks about penalties
+  steps:
+  - intent: penalties
+  - action: utter_penalties
+  - action: utter_ask_more_questions
+
+- story: User inquires about budget allocation
+  steps:
+  - intent: budget_allocation
+  - action: utter_budget_allocation
+  - action: utter_ask_more_questions
+
+- story: User asks about consultation process
+  steps:
+  - intent: consultation_process
+  - action: utter_consultation_process
+  - action: utter_ask_more_questions
+
+- story: User asks about subsidy programs
+  steps:
+  - intent: subsidy_programs
+  - action: utter_subsidy_programs
+  - action: utter_ask_more_questions
+
+- story: User asks about information availability
+  steps:
+  - intent: information_availability
+  - action: utter_information_availability
+  - action: utter_ask_more_questions
+
+- story: User asks about timeline for RTI application
+  steps:
+  - intent: timeline_query
+  - action: utter_timeline_query
+  - action: utter_ask_more_questions
+
+- story: User asks about record retention
+  steps:
+  - intent: record_retention
+  - action: utter_record_retention
+  - action: utter_ask_more_questions
+
+- story: User asks about the RTI Act
+  steps:
+  - intent: ask_about_rti_act
+  - action: utter_explain_rti_act
+  - action: utter_ask_more_questions
+
+- story: User asks about eligible_to_ask
+  steps:
+  - intent: eligible_to_ask
+  - action: utter_eligible_to_ask
+  - action: utter_ask_more_questions

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Case Studies</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Legal Case Studies</h1>
+        <ul class="list-group mt-3">
+            {% for case in case_studies %}
+                <li class="list-group-item">
+                    <h4>{{ case.title }}</h4>
+                    <p><strong>Outcome:</strong> {{ case.outcome }}</p>
+                    <p><strong>Explanation:</strong> {{ case.explanation }}</p>
+                    <p><strong>Facts:</strong> {{ case.facts }}</p>
+                    <p><strong>Legal Issues:</strong> {{ case.legal_issues }}</p>
+                    <p><strong>Arguments:</strong> {{ case.arguments }}</p>
+                    <p><strong>Decision:</strong> {{ case.decision }}</p>
+                    <p><strong>Citation:</strong> {{ case.citation }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

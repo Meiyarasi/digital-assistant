@@ -1,0 +1,366 @@
+{
+    "legal_procedures": [
+      {
+        "title": "Filing a Lawsuit",
+        "steps": [
+            "Step 1: Consultation with an Attorney: Discuss your case with a qualified attorney to evaluate the merits and legal options available.",
+            "Step 2: Preparation of Complaint: Draft a formal legal document called a complaint, outlining the facts, legal claims, and relief sought.",
+            "Step 3: Filing the Complaint: Submit the complaint to the appropriate court along with any required filing fees.",
+            "Step 4: Serving the Defendant: Serve a copy of the complaint and summons to the defendant, notifying them of the lawsuit.",
+            "Step 5: Defendant's Response: Wait for the defendant to respond to the complaint by filing an answer or other legal motion.",
+            "Step 6: Discovery: Exchange relevant information and evidence with the opposing party through methods such as depositions, interrogatories, and document requests.",
+            "Step 7: Pretrial Proceedings: Participate in pretrial conferences, motions hearings, and other proceedings to prepare for trial.",
+            "Step 8: Trial: Present your case before a judge or jury, including witness testimony, exhibits, and legal arguments.",
+            "Step 9: Verdict: Await the court's decision, which may include a judgment in favor of one party, a settlement, or dismissal of the case.",
+            "Step 10: Enforcement or Appeal: Enforce the court's judgment if applicable, or consider appealing the decision to a higher court if dissatisfied."
+        ]
+      },
+      {
+        "title": "Drafting a Contract",
+        "steps": [
+            "Step 1: Identify Parties and Terms: Determine the parties involved and key terms of the agreement, including rights, obligations, and consideration.",
+            "Step 2: Consultation with Legal Counsel: Seek advice from a lawyer specializing in contract law to ensure legal compliance and protection of interests.",
+            "Step 3: Outline the Agreement: Create a detailed outline or framework of the contract, including sections for definitions, parties, scope, obligations, warranties, and remedies.",
+            "Step 4: Drafting the Document: Prepare the contract using clear and concise language, avoiding ambiguity and including all necessary provisions.",
+            "Step 5: Review and Revision: Review the draft contract carefully for accuracy, consistency, and compliance with applicable laws and regulations. Revise as needed.",
+            "Step 6: Negotiation: Engage in negotiations with the other party to address any concerns, clarify terms, and reach mutual agreement on the contract terms.",
+            "Step 7: Execution: Sign the final version of the contract along with the other party, ensuring all necessary signatures and dates are included.",
+            "Step 8: Distribution and Storage: Distribute copies of the executed contract to all relevant parties and retain a copy for your records in a secure location.",
+            "Step 9: Implementation and Monitoring: Implement the terms of the contract as agreed upon and monitor compliance to ensure all parties fulfill their obligations.",
+            "Step 10: Termination and Dispute Resolution: Establish procedures for terminating the contract and resolving disputes, including mediation, arbitration, or litigation if necessary."
+        ]
+      },
+      {
+        "title": "Applying for a Patent",
+        "steps": [
+            "Step 1: Preliminary Research: Conduct a comprehensive search to determine if your invention meets the criteria for patentability and does not infringe on existing patents.",
+            "Step 2: Consultation with Patent Attorney: Seek advice from a qualified patent attorney or agent to assess the patentability of your invention and guide you through the application process.",
+            "Step 3: Document Invention: Document the details of your invention, including its description, purpose, functionality, and any relevant drawings or diagrams.",
+            "Step 4: Patent Search: Conduct a thorough search of existing patents and publications to ensure your invention is novel and non-obvious.",
+            "Step 5: Drafting the Patent Application: Prepare a detailed patent application, including claims that define the scope of protection sought for your invention.",
+            "Step 6: Filing the Application: Submit the patent application to the appropriate patent office along with any required fees and supporting documents.",
+            "Step 7: Examination and Review: Wait for the patent office to examine your application, which may involve multiple rounds of review and correspondence with patent examiners.",
+            "Step 8: Response to Office Actions: Address any objections or rejections raised by the patent examiner by providing arguments and amendments to overcome them.",
+            "Step 9: Patent Grant or Rejection: Await the patent office's decision to grant or reject your patent application based on the examination results.",
+            "Step 10: Maintenance and Enforcement: Maintain the validity of your patent by paying periodic maintenance fees and enforce your patent rights against infringing parties through legal action if necessary."
+        ]
+      },
+      {
+        "title": "Small Claims Court Process",
+        "steps": [
+          "Step 1: Evaluation of Claim",
+          "Step 2: Demand Letter",
+          "Step 3: Filing the Claim",
+          "Step 4: Serving the Defendant",
+          "Step 5: Defendant's Response",
+          "Step 6: Pretrial Conference",
+          "Step 7: Evidence and Witnesses",
+          "Step 8: Trial",
+          "Step 9: Judgment",
+          "Step 10: Enforcement of Judgment"
+        ]
+      },
+      {
+        "title": "Estate Planning Process",
+        "steps": [
+          "Step 1: Assessment of Assets and Liabilities",
+          "Step 2: Set Goals and Objectives",
+          "Step 3: Estate Planning Documents",
+          "Step 4: Will Drafting",
+          "Step 5: Trust Creation",
+          "Step 6: Power of Attorney",
+          "Step 7: Healthcare Directives",
+          "Step 8: Beneficiary Designations",
+          "Step 9: Review and Update",
+          "Step 10: Legal Consultation"
+        ]
+      },
+      {
+        "title": "Business Formation Process",
+        "steps": [
+          "Step 1: Choose Business Structure",
+          "Step 2: Name Reservation",
+          "Step 3: Articles of Incorporation or Organization",
+          "Step 4: Operating Agreements or Bylaws",
+          "Step 5: Obtain Employer Identification Number (EIN)",
+          "Step 6: Business Licenses and Permits",
+          "Step 7: Register for Taxes",
+          "Step 8: Business Bank Account",
+          "Step 9: Insurance Coverage",
+          "Step 10: Compliance and Ongoing Obligations"
+        ]
+      },
+      {
+        "title": "Family Law Proceedings",
+        "steps": [
+          "Step 1: Initial Consultation",
+          "Step 2: Legal Representation",
+          "Step 3: Case Evaluation",
+          "Step 4: Negotiation and Mediation",
+          "Step 5: Filing Petition or Complaint",
+          "Step 6: Discovery Process",
+          "Step 7: Court Hearings and Conferences",
+          "Step 8: Trial Preparation",
+          "Step 9: Trial",
+          "Step 10: Final Orders and Judgments"
+        ]
+      },
+      {
+        "title": "Real Estate Transaction Process",
+        "steps": [
+          "Step 1: Pre-Purchase Preparation",
+          "Step 2: Property Search",
+          "Step 3: Offer and Negotiation",
+          "Step 4: Contract Execution",
+          "Step 5: Due Diligence",
+          "Step 6: Mortgage Processing",
+          "Step 7: Closing Preparation",
+          "Step 8: Closing Meeting",
+          "Step 9: Fund Disbursement",
+          "Step 10: Post-Closing Activities"
+        ]
+      },
+      {
+        "title": "Creating a Will",
+        "steps": [
+            "Step 1: Inventory of Assets: Compile a list of all your assets, including real estate, investments, bank accounts, vehicles, and personal belongings.",
+            "Step 2: Identify Beneficiaries: Determine who will inherit your assets upon your death and specify their relationship to you, such as spouse, children, relatives, or charities.",
+            "Step 3: Appointment of Executor: Designate an executor or personal representative to manage your estate and carry out your wishes according to the terms of your will.",
+            "Step 4: Guardianship Designation: If you have minor children, designate a guardian to care for them in the event of your death or incapacity.",
+            "Step 5: Consultation with Attorney: Seek advice from a qualified estate planning attorney to ensure your will complies with applicable laws and effectively addresses your intentions.",
+            "Step 6: Drafting the Will: Prepare the will document, clearly stating your wishes regarding asset distribution, executor appointment, guardianship, and any other relevant provisions.",
+            "Step 7: Witnesses and Notarization: Sign the will in the presence of at least two witnesses who are not beneficiaries and have them sign as well. Consider having the will notarized for added validity.",
+            "Step 8: Safekeeping: Store the original copy of your will in a secure location such as a safe deposit box, and inform your executor or trusted family member of its whereabouts.",
+            "Step 9: Review and Update: Periodically review and update your will to reflect changes in your life circumstances, such as marriage, divorce, birth of children, or acquisition of new assets.",
+            "Step 10: Distribution and Probate: Upon your death, your executor will initiate the probate process, during which your will is validated, assets are distributed, and debts are settled according to your instructions."
+        ]
+      },
+      {
+        "title": "Starting a Business",
+        "steps": [
+            "Step 1: Business Idea and Market Research: Develop a viable business idea and conduct thorough market research to assess demand, competition, and potential profitability.",
+            "Step 2: Business Plan: Create a comprehensive business plan outlining your goals, target market, products or services, marketing strategies, operational plan, and financial projections.",
+            "Step 3: Legal Structure Selection: Choose the most suitable legal structure for your business, such as sole proprietorship, partnership, corporation, or limited liability company (LLC), considering factors such as liability protection, taxation, and management flexibility.",
+            "Step 4: Business Name Registration: Register your business name with the appropriate government authorities to ensure it is unique and compliant with naming regulations.",
+            "Step 5: Entity Formation: File the necessary paperwork to formally establish your business entity, such as articles of incorporation for corporations or articles of organization for LLCs.",
+            "Step 6: Tax Identification Number: Obtain a federal employer identification number (EIN) from the Internal Revenue Service (IRS) for tax reporting and compliance purposes.",
+            "Step 7: Licenses and Permits: Obtain any required business licenses, permits, or certifications from federal, state, and local authorities to legally operate your business.",
+            "Step 8: Business Banking and Accounting: Open a business bank account to separate personal and business finances, and set up an accounting system to track income, expenses, and taxes.",
+            "Step 9: Contracts and Agreements: Draft and execute contracts and agreements with suppliers, customers, employees, and partners to formalize business relationships and protect your interests.",
+            "Step 10: Launch and Promotion: Launch your business and implement marketing and promotional strategies to attract customers, generate sales, and establish your brand presence in the market."
+        ]
+      },
+      {
+        "title": "Divorce Proceedings",
+        "steps": [
+            "Step 1: Consultation with Attorney: Seek advice from a qualified divorce attorney to understand your rights, obligations, and legal options regarding divorce.",
+            "Step 2: Grounds for Divorce: Determine the grounds for divorce, which may vary depending on jurisdiction, such as irreconcilable differences, adultery, abandonment, or cruelty.",
+            "Step 3: Filing the Petition: Prepare and file a divorce petition or complaint with the appropriate court, stating the grounds for divorce and any other relevant issues such as child custody, support, and property division.",
+            "Step 4: Service of Process: Serve the divorce papers to your spouse through a process server or other approved method, providing them with notice of the divorce proceedings.",
+            "Step 5: Response to Petition: Wait for your spouse to respond to the divorce petition by filing an answer or counterclaim, addressing the issues raised in the petition.",
+            "Step 6: Discovery: Exchange financial information and other relevant documents with your spouse through methods such as interrogatories, requests for production, and depositions.",
+            "Step 7: Negotiation and Settlement: Engage in negotiations with your spouse and their attorney to reach a mutually acceptable settlement agreement regarding issues such as property division, alimony, child custody, and support.",
+            "Step 8: Mediation or Alternative Dispute Resolution (ADR): Consider mediation or other ADR methods to resolve disputes and facilitate agreement on contentious issues outside of court.",
+            "Step 9: Divorce Decree: Obtain a final divorce decree from the court, which officially terminates the marriage and outlines the terms of the divorce settlement.",
+            "Step 10: Post-Divorce Matters: Address post-divorce matters such as implementing the terms of the divorce decree, updating legal documents, and transitioning to post-divorce life."
+        ]
+      },
+      {
+        "title": "Estate Administration",
+        "steps": [
+            "Step 1: Notification of Death: Upon the death of a loved one, notify family members, friends, and relevant parties such as healthcare providers, employers, and financial institutions.",
+            "Step 2: Probate Process: Determine if the deceased's estate needs to go through probate, which involves validating the will, appointing an executor or personal representative, and administering the estate according to the terms of the will or state laws if there is no will (intestate succession).",
+            "Step 3: Appointment of Executor: If necessary, petition the court to appoint an executor or personal representative to manage the estate and carry out the deceased's wishes.",
+            "Step 4: Inventory and Valuation: Compile an inventory of the deceased's assets, including real estate, investments, bank accounts, personal property, and debts, and obtain valuations as needed.",
+            "Step 5: Creditor Notification: Notify creditors of the deceased's death and publish a notice to creditors in the local newspaper to allow them to make claims against the estate within a specified time period.",
+            "Step 6: Debt Settlement: Pay off valid debts and liabilities of the deceased using estate funds, following the priority order specified by state law.",
+            "Step 7: Asset Distribution: Distribute the remaining assets of the estate to the beneficiaries according to the terms of the will or state laws governing intestate succession.",
+            "Step 8: Estate Taxes: Determine if estate taxes are owed and file any required estate tax returns with the appropriate tax authorities.",
+            "Step 9: Final Accounting: Prepare a final accounting of the estate's assets, income, expenses, and distributions, and submit it to the court for approval.",
+            "Step 10: Estate Closure: Obtain a final order from the court closing the estate, releasing the executor from their duties, and officially concluding the administration process."
+        ]
+      },
+      {
+        "title": "Adopting a Child",
+        "steps": [
+            "Step 1: Research and Preparation: Educate yourself about the adoption process, including legal requirements, eligibility criteria, and different types of adoption such as domestic, international, foster care, or private agency adoption.",
+            "Step 2: Choose an Adoption Type: Decide on the type of adoption that best suits your circumstances and preferences, considering factors such as age, health, ethnicity, and legal complexities.",
+            "Step 3: Home Study: Undergo a home study assessment conducted by a licensed social worker or adoption agency to evaluate your suitability and readiness to adopt a child.",
+            "Step 4: Adoption Agency or Attorney: Select a reputable adoption agency or attorney to assist you with the adoption process, providing guidance, support, and legal representation as needed.",
+            "Step 5: Matching Process: Begin the process of finding a suitable match with a prospective birth mother, child, or adoption agency through networking, advertising, or online adoption profiles.",
+            "Step 6: Legal Proceedings: Initiate legal proceedings to finalize the adoption, which may involve filing adoption petitions, attending court hearings, and obtaining consent from birth parents or termination of parental rights if applicable.",
+            "Step 7: Post-Placement Supervision: Undergo a period of post-placement supervision to ensure the child's adjustment and well-being in your home, as required by state adoption laws.",
+            "Step 8: Finalization of Adoption: Attend a final adoption hearing in court, where a judge will review the adoption petition, assess the child's best interests, and issue a decree of adoption if all legal requirements are met.",
+            "Step 9: Post-Adoption Support: Access post-adoption support services and resources to help your family adjust to the new dynamics and address any challenges that may arise, including counseling, support groups, and educational workshops.",
+            "Step 10: Update Legal Documents: Update legal documents such as birth certificates, social security records, and insurance policies to reflect the child's new legal status as your adopted child."
+        ]
+      },
+      {
+        "title": "Seeking Legal Aid",
+        "steps": [
+            "Step 1: Assessment of Legal Needs: Determine the nature and scope of your legal issue, including the type of legal assistance required and your eligibility for free or low-cost legal services.",
+            "Step 2: Research Legal Resources: Explore available legal resources and services in your area, such as legal aid organizations, pro bono clinics, bar associations, and online legal assistance programs.",
+            "Step 3: Consultation with Attorney: Schedule a consultation with a qualified attorney specializing in the relevant area of law to discuss your legal rights, options, and potential strategies for resolving your issue.",
+            "Step 4: Income Eligibility Screening: Determine if you meet the income eligibility criteria for free or reduced-cost legal services based on your household income and family size.",
+            "Step 5: Application Process: Complete and submit an application for legal aid services, providing information about your legal issue, financial situation, and other relevant details.",
+            "Step 6: Documentation and Verification: Gather and submit any required documents or evidence to support your application, such as income statements, identification, and legal notices.",
+            "Step 7: Review and Approval: Wait for your application to be reviewed and approved by the legal aid provider, who will assess your eligibility and prioritize your case based on urgency and merit.",
+            "Step 8: Assignment of Attorney: Upon approval, you will be assigned a qualified attorney or legal advocate to represent you in your case and provide legal advice and representation as needed.",
+            "Step 9: Case Management: Work closely with your assigned attorney to develop a case strategy, gather evidence, prepare legal documents, and navigate court proceedings or negotiations.",
+            "Step 10: Resolution and Follow-Up: Pursue resolution of your legal issue through settlement, mediation, arbitration, or litigation, and follow up with your attorney to address any post-case matters or ongoing legal needs."
+        ]
+      },
+      {
+        "title": "Dispute Resolution",
+        "steps": [
+            "Step 1: Assessment of Dispute: Evaluate the nature and severity of the dispute, including the parties involved, underlying issues, and potential legal implications.",
+            "Step 2: Communication and Negotiation: Initiate dialogue with the opposing party to discuss the dispute, express concerns, and explore opportunities for resolution through negotiation, compromise, or alternative dispute resolution (ADR) methods.",
+            "Step 3: Mediation: Consider engaging a neutral third-party mediator to facilitate communication, identify common interests, and help the parties reach a mutually acceptable agreement outside of court.",
+            "Step 4: Arbitration: If negotiation and mediation fail to resolve the dispute, consider submitting to arbitration, where an impartial arbitrator will hear evidence, evaluate arguments, and render a binding decision.",
+            "Step 5: Litigation: As a last resort, initiate legal proceedings by filing a lawsuit in the appropriate court and pursuing resolution of the dispute through formal litigation, including pretrial motions, discovery, trial, and potential appeal.",
+            "Step 6: Legal Representation: Retain qualified legal counsel to represent your interests and advocate on your behalf throughout the dispute resolution process, providing legal advice, strategic guidance, and courtroom advocacy as needed.",
+            "Step 7: Evidence Gathering: Collect and preserve relevant evidence, documents, and testimony to support your case and refute the opposing party's claims, adhering to rules of evidence and procedural requirements.",
+            "Step 8: Court Proceedings: Participate in court hearings, conferences, and other proceedings to present your case, cross-examine witnesses, and argue legal issues before a judge or jury.",
+            "Step 9: Settlement Negotiations: Continue exploring settlement options and negotiating terms with the opposing party even during litigation, as many disputes are resolved through settlement agreements before trial.",
+            "Step 10: Final Resolution: Reach a final resolution of the dispute through voluntary settlement, court judgment, or arbitration award, and implement the terms of the resolution to bring closure to the matter."
+        ]
+      },
+      {
+        "title": "Immigration Process",
+        "steps": [
+          "Determine Eligibility: Assess eligibility based on factors like family ties, employment, education, investment, or asylum status.",
+          "Choose Immigration Category: Select appropriate category or visa type based on eligibility and goals.",
+          "Gather Required Documents: Compile necessary documents including identification, passport, birth/marriage certificates, etc.",
+          "Submit Application: Complete and submit application with supporting documents and fees to the immigration agency.",
+          "Attend Biometrics Appointment: Provide fingerprints, photos, and biographical information for identity verification.",
+          "Attend Interview (if required): Prepare for and attend an immigration interview.",
+          "Wait for Decision: Await decision on application, which may take months.",
+          "Medical Examination: Undergo medical examination by authorized physician.",
+          "Background Checks: Undergo background checks and security screenings.",
+          "Receive Visa or Status Approval: If approved, receive immigration visa or status approval."
+        ]
+      },
+      {
+        "title": "Criminal Trial Proceedings",
+        "steps": [
+          "Arrest and Booking: If suspected of a crime, arrested and booked into jail.",
+          "Initial Appearance: Attend initial court appearance to be informed of charges and rights.",
+          "Bail Hearing: If bail set, attend hearing to determine bail amount.",
+          "Pretrial Proceedings: Participate in pretrial proceedings to prepare for trial.",
+          "Trial Preparation: Work with attorney to prepare defense strategy and gather evidence.",
+          "Jury Selection: Participate in jury selection process.",
+          "Trial: Attend trial and present evidence.",
+          "Verdict: Await jury's verdict or judge's decision.",
+          "Sentencing (if convicted): Attend sentencing hearing if convicted.",
+          "Appeal (if applicable): Consider filing an appeal if dissatisfied with verdict or sentence."
+        ]
+      },
+      {
+        "title": "Trademark Registration Process",
+        "steps": [
+          "Trademark Search: Conduct comprehensive trademark search.",
+          "Determine Eligibility: Assess trademark eligibility.",
+          "Identify Goods or Services: Identify and classify goods or services associated with trademark.",
+          "Application Filing: Prepare and file trademark application.",
+          "Examination Process: Await examination of trademark application.",
+          "Office Action Response: Respond to any office actions or objections.",
+          "Publication for Opposition: If approved, trademark is published for opposition.",
+          "Registration Certificate: Upon successful completion, receive registration certificate.",
+          "Maintenance and Renewal: Maintain and protect registered trademark.",
+          "International Protection (if desired): Seek international protection if desired."
+        ]
+      },
+      {
+        "title": "Landlord-Tenant Dispute Resolution",
+        "steps": [
+          "Communication: Open lines of communication between landlord and tenant.",
+          "Review Lease Agreement: Review terms and conditions of lease agreement.",
+          "Document the Issue: Document details of dispute.",
+          "Notice to Cure or Quit: Serve notice to cure or quit if applicable.",
+          "Mediation or Negotiation: Consider mediation or negotiation to resolve dispute.",
+          "Legal Consultation: Seek advice from qualified attorney.",
+          "Demand Letter: If informal resolution fails, consider sending demand letter.",
+          "File a Lawsuit: Initiate legal proceedings by filing a lawsuit.",
+          "Court Proceedings: Participate in court hearings and proceedings.",
+          "Judgment and Enforcement: Await judgment and enforce if necessary."
+        ]
+      },
+      {
+        "title": "Small Claims Court Process",
+        "steps": [
+          "Evaluation of Claim: Assess validity and merits of claim.",
+          "Demand Letter: Send demand letter to opposing party.",
+          "Filing the Claim: Complete and file small claims court claim form.",
+          "Serving the Defendant: Serve claim form on defendant.",
+          "Defendant's Response: Await defendant's response to claim.",
+          "Pretrial Conference: Attend pretrial conference.",
+          "Evidence and Witnesses: Gather evidence and witnesses.",
+          "Trial: Participate in small claims court trial.",
+          "Judgment: Await judge's decision or judgment.",
+          "Enforcement of Judgment: Enforce judgment if necessary."
+        ]
+      },
+      {
+        "title": "Estate Planning Process",
+        "steps": [
+          "Assessment of Assets and Liabilities: Compile inventory of assets and liabilities.",
+          "Set Goals and Objectives: Determine estate planning goals and objectives.",
+          "Estate Planning Documents: Prepare essential estate planning documents.",
+          "Will Drafting: Draft and execute valid will.",
+          "Trust Creation: Establish and fund trust.",
+          "Power of Attorney: Execute durable power of attorney.",
+          "Healthcare Directives: Prepare advance healthcare directives.",
+          "Beneficiary Designations: Review and update beneficiary designations.",
+          "Review and Update: Regularly review and update estate plan.",
+          "Legal Consultation: Seek guidance from experienced attorney."
+        ]
+      },
+      {
+        "title": "Business Formation Process",
+        "steps": [
+          "Choose Business Structure: Determine suitable business structure.",
+          "Name Reservation: Conduct name search and reserve name.",
+          "Articles of Incorporation or Organization: Prepare and file articles of incorporation or organization.",
+          "Operating Agreements or Bylaws: Draft and adopt operating agreements or bylaws.",
+          "Obtain Employer Identification Number (EIN): Apply for EIN from IRS.",
+          "Business Licenses and Permits: Obtain required licenses and permits.",
+          "Register for Taxes: Register business for taxes.",
+          "Business Bank Account: Open separate business bank account.",
+          "Insurance Coverage: Obtain appropriate insurance coverage.",
+          "Compliance and Ongoing Obligations: Ensure ongoing compliance with legal requirements."
+        ]
+      },
+      {
+        "title": "Family Law Proceedings",
+        "steps": [
+          "Initial Consultation: Schedule initial consultation with family law attorney.",
+          "Legal Representation: Retain legal representation.",
+          "Case Evaluation: Evaluate facts and legal issues.",
+          "Negotiation and Mediation: Attempt negotiation or mediation.",
+          "Filing Petition or Complaint: File petition or complaint.",
+          "Discovery Process: Engage in discovery process.",
+          "Court Hearings and Conferences: Attend court hearings and conferences.",
+          "Trial Preparation: Prepare for trial.",
+          "Trial: Participate in family law trial.",
+          "Final Orders and Judgments: Obtain final orders or judgments."
+        ]
+      },
+      {
+        "title": "Real Estate Transaction Process",
+        "steps": [
+          "Pre-Purchase Preparation: Assess real estate needs and obtain pre-approval for mortgage loan.",
+          "Property Search: Conduct search for suitable properties.",
+          "Offer and Negotiation: Make offer to purchase and negotiate terms.",
+          "Contract Execution: Sign purchase agreement or sales contract.",
+          "Due Diligence: Conduct due diligence on property.",
+          "Mortgage Processing: Apply for mortgage loan.",
+          "Closing Preparation: Prepare for closing meeting.",
+          "Closing Meeting: Attend closing meeting or settlement.",
+          "Fund Disbursement: Arrange for fund disbursement.",
+          "Post-Closing Activities: Complete post-closing activities."
+        ]
+      }
+  
+    ]
+  }
+  

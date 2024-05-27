@@ -1,0 +1,822 @@
+version: "3.1"
+
+nlu:
+
+- intent: inform_about_womensact
+  examples: |
+    - What is the Protection of Women from Domestic Violence Act about?
+    - Can you explain the Domestic Violence Act to me?
+    - Tell me about the Act protecting women from domestic violence
+    - What is the purpose of the Womens Act?
+    - Can you explain the aim of the Protection of Women from Domestic Violence Act?
+    - Tell me about the Act protecting women from violence within families
+
+- intent: seek_help
+  examples: |
+    - I need help
+    - Can you help me?
+    - Where can I get assistance?
+
+- intent: report_abuse
+  examples: |
+    - How can I report domestic violence?
+    - What should I do if I'm experiencing abuse?
+    - I want to report an abusive situation
+    - How to file a complaint?
+
+- intent: womens_extent
+  examples: |
+    - What is the extent of the Act?
+    - To which areas does the Act apply?
+    - Where does the Act extend to?
+
+- intent: womens_commencement
+  examples: |
+    - When does the Act come into force?
+    - What is the commencement date of the Act?
+    - When did the Act start to apply?
+
+- intent: aggrieved_person_definition
+  examples: |
+    - What is an aggrieved person?
+    - Can you explain who qualifies as an aggrieved person?
+    - Define aggrieved person
+    
+
+- intent: domestic_relationship_definition
+  examples: |
+    - What does domestic relationship mean?
+    - Can you define domestic relationship?
+    - Explain the concept of domestic relationship
+    - Define domestic relationship
+
+- intent: domestic_violence_definition
+  examples: |
+    - What is domestic violence?
+    - Can you define domestic violence?
+    - Explain the meaning of domestic violence
+    
+
+- intent: child_definition
+  examples: |
+    - What does 'child' mean in this Act?
+    - Can you define the term 'child'?
+    - Explain the definition of child
+
+- intent: compensation_order_definition
+  examples: |
+    - What is a compensation order?
+    - Can you explain what a compensation order entails?
+    - Define compensation order
+
+- intent: custody_order_definition
+  examples: |
+    - What is a custody order?
+    - Can you explain what a custody order is?
+    - Define custody order
+
+- intent: domestic_incident_report_definition
+  examples: |
+    - What does 'domestic incident report' mean?
+    - Can you define domestic incident report?
+    - Explain the definition of domestic incident report
+
+- intent: dowry_definition
+  examples: |
+    - What is the definition of 'dowry'?
+    - Can you explain what dowry means?
+    - Define dowry
+
+- intent: magistrate_definition
+  examples: |
+    - What is a Magistrate in this context?
+    - Can you define Magistrate?
+    - Explain the definition of Magistrate
+
+- intent: medical_facility_definition
+  examples: |
+    - What does 'medical facility' mean?
+    - Can you define medical facility?
+    - Explain the definition of medical facility
+
+- intent: monetary_relief_definition
+  examples: |
+    - What is monetary relief?
+    - Can you explain what monetary relief entails?
+    - Define monetary relief
+
+- intent: notification_definition
+  examples: |
+    - What is meant by 'notification'?
+    - Can you define notification?
+    - Explain the definition of notification
+
+- intent: prescribed_definition
+  examples: |
+    - What does 'prescribed' mean?
+    - Can you define prescribed?
+    - Explain the definition of prescribed
+
+- intent: protection_officer_definition
+  examples: |
+    - What is a Protection Officer?
+    - Can you define Protection Officer?
+    - Define Protection Officer
+
+- intent: protection_order_definition
+  examples: |
+    - What is a protection order?
+    - Can you explain what a protection order is?
+    - Define protection order
+
+
+- intent: respondent_definition
+  examples: |
+    - Who is a respondent in this Act?
+    - Can you define respondent?
+    - Explain the definition of respondent
+
+- intent: service_provider_definition
+  examples: |
+    - What is a service provider?
+    - Can you explain what a service provider is?
+    - Define service provider
+
+- intent: shared_household_definition
+  examples: |
+    - What is a shared household?
+    - Can you define shared household?
+    - Define shared household
+    - What constitutes a shared household?
+    - Can you explain the concept of a shared household?
+    - What is meant by a shared household?
+
+- intent: shelter_home_definition
+  examples: |
+    - What is a shelter home?
+    - Can you explain what a shelter home is?
+    - Define shelter home
+
+
+- intent: physical_abuse
+  examples: |
+    - What is physical abuse?
+    - Can you explain physical abuse?
+    - Define physical abuse
+
+- intent: sexual_abuse
+  examples: |
+    - What is sexual abuse?
+    - Can you explain sexual abuse?
+    - Define sexual abuse
+
+- intent: verbal_and_emotional_abuse
+  examples: |
+    - What is verbal and emotional abuse?
+    - Can you explain verbal and emotional abuse?
+    - Define verbal and emotional abuse
+
+- intent: economic_abuse
+  examples: |
+    - What is economic abuse?
+    - Can you explain economic abuse?
+    - Define economic abuse
+
+- intent: domestic_violence_cases
+  examples: |
+    - What type of cases do women face related to domestic violence?
+    - Can you provide examples of domestic violence cases faced by women?
+    - Describe the types of cases related to domestic violence against women
+
+- intent: information_to_protection_officer
+  examples: |
+    - How can I inform the Protection Officer about domestic violence?
+    - What should I do if I know about an act of domestic violence?
+    - How can I report domestic violence to the Protection Officer?
+
+- intent: exclusion_of_liability
+  examples: |
+    - Is there any liability for informing about domestic violence?
+    - Can I be held liable for reporting domestic violence?
+    - What are the consequences of informing about domestic violence?
+
+- intent: domestic_violence_related_cases
+  examples: |
+    - What type of cases are related to informing the Protection Officer about domestic violence?
+    - Can you provide examples of cases where women face domestic violence?
+    - Describe the types of cases related to domestic violence against women that require informing the Protection Officer
+
+- intent: duties_of_police_officers
+  examples: |
+    - What are the duties of police officers in cases of domestic violence?
+    - Can you explain the duties of police officers regarding domestic violence complaints?
+    - Describe the responsibilities of police officers when dealing with domestic violence incidents.
+
+- intent: duties_of_service_providers
+  examples: |
+    - What are the duties of service providers in cases of domestic violence?
+    - Can you explain the duties of service providers regarding domestic violence complaints?
+    - Describe the responsibilities of service providers when dealing with domestic violence incidents.
+
+- intent: duties_of_magistrate
+  examples: |
+    - What are the duties of the Magistrate in cases of domestic violence?
+    - Can you explain the duties of the Magistrate regarding domestic violence complaints?
+    - Describe the responsibilities of the Magistrate when dealing with domestic violence incidents.
+
+- intent: rights_of_aggrieved_person
+  examples: |
+    - What rights does the aggrieved person have in cases of domestic violence?
+    - Can you explain the rights of the aggrieved person in domestic violence situations?
+    - Describe the entitlements of the aggrieved person when facing domestic violence.
+
+- intent: legal_services_rights
+  examples: |
+    - What are the rights of the aggrieved person regarding free legal services?
+    - Can you explain the entitlements of the aggrieved person to free legal services?
+    - Describe the rights of the aggrieved person under the Legal Services Authorities Act.
+
+- intent: filing_complaint_under_IPC
+  examples: |
+    - Can the aggrieved person file a complaint under section 498A of the Indian Penal Code?
+    - What is the process for filing a complaint under section 498A of the IPC?
+    - Describe the procedure for filing a complaint under section 498A of the Indian Penal Code.
+
+
+- intent: duties_of_shelter_homes
+  examples: |
+    - What are the duties of shelter homes in cases of domestic violence?
+    - Can you explain the duties of shelter homes regarding providing shelter to aggrieved persons?
+    - Describe the responsibilities of shelter homes when requested to provide shelter to aggrieved persons.
+    - What are the duties of shelter homes
+    - Can you explain the duties of shelter homes
+
+- intent: duties_of_medical_facilities
+  examples: |
+    - What are the duties of medical facilities in cases of domestic violence?
+    - Can you explain the duties of medical facilities regarding providing medical aid to aggrieved persons?
+    - Describe the responsibilities of medical facilities when requested to provide medical aid to aggrieved persons.
+    - What are the duties of medical facilities?
+    - Can you explain the duties of medical facilities?
+
+- intent: appointment_of_protection_officers
+  examples: |
+    - What is the process for appointing Protection Officers under the domestic violence act?
+    - Can you explain the appointment process for Protection Officers?
+    - Describe how Protection Officers are appointed under the domestic violence act.
+    - What is the process for appointing Protection Officers?
+
+- intent: duties_of_protection_officers
+  examples: |
+    - What are the duties and functions of Protection Officers under the domestic violence act?
+    - Can you explain the responsibilities of Protection Officers regarding domestic violence cases?
+    - Describe the duties and functions of Protection Officers as outlined in the domestic violence act.
+
+- intent: assist_magistrate
+  examples: |
+    - What is the duty of Protection Officers to assist the Magistrate?
+    - Can you explain how Protection Officers assist the Magistrate in domestic violence cases?
+    - Describe the role of Protection Officers in assisting the Magistrate under the domestic violence act.
+
+- intent: make_domestic_incident_report
+  examples: |
+    - What is the duty of Protection Officers to make a domestic incident report?
+    - Can you explain the process of making a domestic incident report by Protection Officers?
+    - Describe how Protection Officers handle domestic violence complaints and make incident reports.
+
+- intent: make_application_for_protection_order
+  examples: |
+    - What is the duty of Protection Officers to make an application for a protection order?
+    - Can you explain how Protection Officers assist in making applications for protection orders?
+    - Describe the role of Protection Officers in helping aggrieved persons apply for protection orders.
+
+- intent: provide_legal_aid
+  examples: |
+    - What is the duty of Protection Officers to ensure legal aid for aggrieved persons?
+    - Can you explain how Protection Officers ensure legal aid for aggrieved persons?
+    - Describe how Protection Officers assist in providing legal aid to aggrieved persons.
+
+- intent: maintain_list_of_service_providers
+  examples: |
+    - What is the duty of Protection Officers to maintain a list of service providers?
+    - Can you explain how Protection Officers maintain a list of service providers?
+    - Describe the role of Protection Officers in maintaining a list of service providers.
+
+- intent: provide_safe_shelter_home
+  examples: |
+    - What is the duty of Protection Officers to provide a safe shelter home?
+    - Can you explain how Protection Officers arrange safe shelter homes for aggrieved persons?
+    - Describe how Protection Officers help aggrieved persons find safe shelter homes.
+
+- intent: get_medically_examined
+  examples: |
+    - What is the duty of Protection Officers to get the aggrieved person medically examined?
+    - Can you explain how Protection Officers arrange medical examinations for aggrieved persons?
+    - Describe the role of Protection Officers in ensuring medical examinations for aggrieved persons.
+
+- intent: ensure_compliance_with_monetary_relief_order
+  examples: |
+    - What is the duty of Protection Officers to ensure compliance with monetary relief orders?
+    - Can you explain how Protection Officers ensure compliance with monetary relief orders?
+    - Describe how Protection Officers ensure monetary relief orders are complied with.
+
+- intent: perform_other_duties
+  examples: |
+    - What other duties do Protection Officers perform under the domestic violence act?
+    - Can you explain additional duties performed by Protection Officers?
+    - Describe any other responsibilities of Protection Officers under the domestic violence act.
+
+- intent: service_provider_registration
+  examples: |
+    - What are the requirements for registering as a service provider?
+    - How can a voluntary association register as a service provider?
+    - Under which Act should a company register to become a service provider?
+    - Can you explain the process of registering as a service provider?
+
+- intent: service_provider_powers
+  examples: |
+    - What powers do service providers have?
+    - Can service providers file domestic incident reports?
+    - Do service providers have the authority to provide shelter to aggrieved persons?
+    - Can service providers get aggrieved persons medically examined?
+
+- intent: legal_protection_service_providers
+  examples: |
+    - Are service providers protected under legal proceedings?
+    - Can legal action be taken against service providers for their actions under this Act?
+    - Is there immunity for service providers acting in good faith under this Act?
+    - Are service providers protected from prosecution for their actions under this Act?
+
+- intent: types_of_cases_faced_by_women
+  examples: |
+    - What type of cases are addressed by the law mentioned?
+    - In what situations can women seek assistance under this Act?
+    - Can you explain the scope of cases covered under this law?
+    - What are the rights and interests of women protected by this law?
+
+- intent: government_duties_publicity
+  examples: |
+    - What measures should the government take to ensure publicity of this Act?
+    - How should the provisions of this Act be made known to the public?
+    - What does the government need to do to ensure wide publicity of this Act?
+    - Can you explain how the government should promote awareness of this Act?
+
+- intent: government_duties_training
+  examples: |
+    - What training should government officers receive regarding this Act?
+    - How should police officers and judicial services members be trained on the issues addressed by this Act?
+    - Can you explain the periodic sensitization and awareness training for government officers?
+    - What measures are taken for sensitization and awareness training on the issues addressed by this Act?
+
+- intent: government_duties_coordination
+  examples: |
+    - How should coordination between concerned Ministries and Departments be established?
+    - What steps are taken for effective coordination between relevant government services?
+    - Can you explain the coordination efforts between Ministries to address issues of domestic violence?
+    - What measures are taken for coordination between different government departments to address domestic violence?
+
+- intent: government_duties_protocols
+  examples: |
+    - What protocols should be prepared for Ministries dealing with services under this Act?
+    - Can you explain the protocols for delivery of services to women under this Act?
+    - How are protocols for various Ministries involved in delivering services to women prepared?
+    - What steps are taken to establish protocols for Ministries and courts under this Act?
+
+- intent: types_of_cases_faced_by_women_government_duties
+  examples: |
+    - How do the government duties mentioned relate to cases faced by women?
+    - What types of cases are addressed by the government duties outlined in this Act?
+    - Can you explain the connection between government duties and cases faced by women?
+    - What are the cases of domestic violence addressed by the government duties mentioned in this Act?
+
+- intent: application_to_magistrate
+  examples: |
+    - Who can present an application to the Magistrate under this Act?
+    - Can a Protection Officer file an application to the Magistrate on behalf of the aggrieved person?
+    - What factors does the Magistrate consider before passing an order on the application?
+    - What reliefs can be sought under this Act by presenting an application to the Magistrate?
+    - Is it possible to seek compensation or damages through an application to the Magistrate?
+    - How does the relief sought under sub-section (1) relate to the right to institute a suit for compensation or damages?
+    - What is the timeframe for disposing of applications made under sub-section (1)?
+    - How does the Magistrate determine the first date of hearing for the application?
+
+- intent: application_content
+  examples: |
+    - What information should be included in the application under sub-section (1)?
+    - Can you provide details about the form and particulars required for the application under sub-section (1)?
+    - What are the prescribed particulars for the application under sub-section (1)?
+    - How should the application under sub-section (1) be structured?
+    - What information should be included in the application?
+
+- intent: application_timeframe
+  examples: |
+    - Within what period should the Magistrate dispose of every application made under sub-section (1)?
+    - What is the timeframe for the disposal of applications under sub-section (1)?
+    - Can you explain the time limit for disposing of applications made under sub-section (1)?
+    - What is the timeframe for the disposal of applications?
+    - Can you explain the time limit for disposing of applications made?
+    - Within what period should the Magistrate dispose of every application made?
+
+- intent: service_of_notice
+  examples: |
+    - What are the procedures for serving notice of the date of hearing under section 12?
+    - Who is responsible for serving notice to the respondent and other concerned parties under section 13?
+    - How long does the Protection Officer have to serve the notice according to section 13?
+    - What proof is required for the service of notice under section 13?
+    - What are the procedures for serving notice of the date of hearing?
+    - Who is responsible for serving notice to the respondent and other concerned parties?
+    - How long does the Protection Officer have to serve the notice?
+    - What proof is required for the service of notice?
+
+- intent: counselling
+  examples: |
+    - Can the Magistrate order counselling for the respondent or the aggrieved person under section 14?
+    - Who can conduct counselling sessions under section 14?
+    - What is the timeframe for fixing the next date of hearing after issuing a counselling direction under section 14?
+    - Can the Magistrate order counselling for the respondent or the aggrieved person?
+    - Who can conduct counselling sessions?
+    - What is the timeframe for fixing the next date of hearing after issuing a counselling direction?
+
+- intent: assistance_of_welfare_expert
+  examples: |
+    - How can the Magistrate secure the services of a welfare expert under section 15?
+    - How can the Magistrate secure the services of a welfare expert?
+    - Who can the Magistrate appoint for assistance in proceedings under this Act according to section 15?
+    - What is the purpose of appointing a welfare expert under section 15?
+    - Who can the Magistrate appoint for assistance in proceedings?
+    - What is the purpose of appointing a welfare expert?
+
+- intent: proceedings_in_camera
+  examples: |
+    - Under what circumstances can the Magistrate conduct proceedings in camera as per section 16?
+    - What does it mean to conduct proceedings in camera according to section 16?
+    - Can either party request for proceedings to be held in camera under section 16?
+    - Under what circumstances can the Magistrate conduct proceedings in camera?
+    - What does it mean to conduct proceedings in camera?
+    - Can either party request for proceedings to be held in camera?
+
+- intent: right_to_reside_in_shared_household
+  examples: |
+    - What rights does a woman in a domestic relationship have regarding shared household under section 17?
+    - What rights does a woman in a domestic relationship have regarding shared household?
+    - Can an aggrieved person be evicted or excluded from the shared household according to section 17?
+    - Can an aggrieved person be evicted or excluded from the shared household?
+    - What procedure should be followed for evicting or excluding the aggrieved person from the shared household as per section 17?
+    - What procedure should be followed for evicting or excluding the aggrieved person from the shared household?
+
+- intent: protection_orders
+  examples: |
+    - What actions can the Magistrate take under protection orders as per the Act?
+    - How does the Magistrate decide to pass a protection order in favor of the aggrieved person?
+    - Can you explain the prohibitions imposed on the respondent under protection orders?
+    - What is the purpose of a protection order under the Act?
+    - What types of acts are prohibited for the respondent under protection orders?
+
+- intent: cases_suited_for_protection_orders
+  examples: |
+    - In which cases would a protection order be suitable for women?
+    - What types of cases warrant the issuance of protection orders under the Act?
+    - Can you provide examples of situations where protection orders would be applicable?
+    - How does this section relate to cases of domestic violence faced by women?
+
+
+- intent: inquire_residence_order
+  examples: |
+    - What is a residence order?
+    - Can you explain residence orders under domestic violence law?
+    - Tell me about the provisions regarding residence orders.
+    - Explain residence orders
+    - Can you provide information on residence orders?
+    - What does the law say about residence orders?
+    - Define residence order
+    - What is meant by a residence order?
+    - Explain the meaning of a residence order
+    - Give me a definition of residence order
+
+
+- intent: inquire_protection_order
+  examples: |
+    - What does a protection order entail?
+    - Explain the concept of a protection order.
+    - Can you provide information about protection orders in cases of domestic violence?
+    - Explain protection orders
+    - Can you provide information on protection orders?
+    - What does the law say about protection orders?
+
+- intent: inquire_stridhan_return
+  examples: |
+    - What is stridhan?
+    - Can you explain the concept of stridhan?
+    - Tell me about the legal provisions regarding the return of stridhan to women.
+    - Explain the concept of stridhan
+    - Can you provide information on stridhan?
+    - What does the term stridhan mean?
+
+- intent: help_women_domestic_violence
+  examples: |
+    - How can I get help if I'm facing domestic violence?
+    - What legal options do women have in cases of domestic violence?
+    - Where can women seek assistance for domestic violence cases?
+    - How can I protect myself from domestic violence?
+    - What are my rights as a woman in a domestic violence situation?
+
+- intent: seek_legal_aid
+  examples: |
+    - I need legal assistance for a domestic violence case.
+    - Where can I find a lawyer for domestic violence cases?
+    - How can I get legal aid for a domestic violence situation?
+
+- intent: report_domestic_violence
+  examples: |
+    - I want to report domestic violence.
+    - How do I file a complaint for domestic violence?
+    - Where should I go to report domestic violence?
+    
+- intent: express_gratitude
+  examples: |
+    - Thank you for your assistance.
+    - I appreciate your help.
+    - Thanks for providing the information.
+
+- intent: list_residence_order_provisions
+  examples: |
+    - What are the provisions of a residence order?
+    - List down the provisions under a residence order
+    - Explain the clauses of a residence order
+    - Can you detail the provisions of a residence order?
+
+- intent: explain_additional_conditions
+  examples: |
+    - What additional conditions can be imposed?
+    - Explain the additional conditions under a residence order
+    - What are the possible additional directions?
+    - Can you elaborate on the additional conditions?
+
+- intent: inquire_police_assistance
+  examples: |
+    - Can the police assist in implementing the protection order?
+    - What role does the police play in implementing protection orders?
+    - Do protection orders involve police assistance?
+    - Explain the involvement of police in protection orders
+
+- intent: inquire_return_property
+  examples: |
+    - Can the respondent be directed to return property?
+    - What happens to the aggrieved person's property in a residence order?
+    - Can you explain property rights in a residence order?
+    - What about returning possessions in a residence order?
+
+- intent: inquire_rent_obligations
+  examples: |
+    - What rent obligations can be imposed?
+    - Can the respondent be obligated to pay rent in a residence order?
+    - Explain financial obligations in a residence order
+    - What are the financial responsibilities in a residence order?
+
+
+- intent: inquire_execution_bond
+  examples: |
+    - What is an execution bond?
+    - Explain the requirement of a bond in execution of a residence order
+    - Can you detail the bond requirement in residence orders?
+    - What does executing a bond entail?
+
+- intent: inquire_magistrate_powers
+  examples: |
+    - What powers does the magistrate have in a residence order?
+    - Explain the authority of the magistrate in a residence order
+    - Can you detail the magistrate's role in residence orders?
+    - What actions can a magistrate take in a residence order?
+  
+
+- intent: inquire_domestic_violence
+  examples: |
+    - What constitutes domestic violence?
+    - Define domestic violence
+    - Can you explain what counts as domestic violence?
+    - What actions are considered domestic violence?
+
+- intent: inquire_monetary_relief
+  examples: |
+    - What is monetary relief according to the law?
+    - Explain monetary relief in cases of domestic violence
+    - Can you provide information on monetary relief?
+    - What does the law say about monetary relief for aggrieved persons?
+
+- intent: list_monetary_relief_expenses
+  examples: |
+    - What expenses are covered under monetary relief?
+    - Explain the types of expenses included in monetary relief
+    - Can you detail the expenses considered for monetary relief?
+    - What losses are covered in monetary relief?
+
+- intent: inquire_maintenance_order
+  examples: |
+    - What is a maintenance order under monetary relief?
+    - Explain the provision for maintenance in monetary relief
+    - Can you provide information on maintenance orders in monetary relief?
+    - What does the law say about maintenance for aggrieved persons and their children?
+
+- intent: specify_standard_of_living
+  examples: |
+    - What is meant by standard of living in monetary relief?
+    - Explain the concept of standard of living under monetary relief
+    - Can you define standard of living as per monetary relief provisions?
+    - What constitutes the standard of living in monetary relief cases?
+
+- intent: specify_payment_options
+  examples: |
+    - What payment options are available for monetary relief?
+    - Explain the methods of payment for monetary relief
+    - Can you detail the payment options in monetary relief cases?
+    - How can the monetary relief be paid to the aggrieved person?
+
+- intent: inquire_order_copy
+  examples: |
+    - Can the parties receive a copy of the monetary relief order?
+    - What happens after a monetary relief order is issued?
+    - Do the parties get a copy of the monetary relief order?
+    - How is the issuance of a monetary relief order notified to the parties?
+
+- intent: inquire_payment_deadline
+  examples: |
+    - What is the deadline for payment in monetary relief cases?
+    - Explain the timeframe for payment in monetary relief orders
+    - Can you specify the payment deadline for monetary relief?
+    - When should the respondent make the payment in monetary relief cases?
+
+- intent: specify_enforcement_action
+  examples: |
+    - What action can be taken if the respondent fails to pay?
+    - Explain the consequences of non-payment in monetary relief cases
+    - Can you detail the enforcement measures for non-payment in monetary relief cases?
+    - What happens if the respondent defaults on payment in monetary relief cases?
+
+- intent: inquire_custody_orders
+  examples: |
+    - What are custody orders according to the law?
+    - Explain custody orders in cases of domestic violence
+    - Can you provide information on custody orders?
+    - What does the law say about temporary custody of children?
+
+- intent: inquire_compensation_orders
+  examples: |
+    - What are compensation orders under this Act?
+    - Explain compensation orders for domestic violence injuries
+    - Can you provide information on compensation orders?
+    - What does the law say about compensation for domestic violence?
+
+- intent: inquire_interim_ex_parte_orders
+  examples: |
+    - What are interim and ex parte orders under this Act?
+    - Explain interim orders in proceedings under this Act
+    - Can you provide information on interim and ex parte orders?
+    - What does the law say about interim orders in domestic violence cases?
+
+- intent: inquire_free_copy_orders
+  examples: |
+    - Who receives free copies of orders under this Act?
+    - Explain the distribution of free copies of orders
+    - Can you provide information on free copies of orders?
+    - What does the law say about providing free copies of orders?
+
+- intent: inquire_order_duration
+  examples: |
+    - How long is a protection order valid for?
+    - Explain the duration of protection orders under this Act
+    - Can you provide information on the duration of orders?
+    - What does the law say about the duration of protection orders?
+
+- intent: inquire_alteration_orders
+  examples: |
+    - Can orders under this Act be altered?
+    - Explain the alteration of orders under this Act
+    - Can you provide information on altering orders?
+    - What does the law say about altering orders under this Act?
+
+- intent: inquire_relief_in_other_proceedings
+  examples: |
+    - Can relief under this Act be sought in other legal proceedings?
+    - Explain seeking relief in other legal proceedings
+    - Can you provide information on seeking relief in other proceedings?
+    - What does the law say about seeking relief in other suits and proceedings?
+
+- intent: inquire_jurisdiction
+  examples: |
+    - What is the jurisdiction for granting protection orders?
+    - Explain jurisdiction under this Act
+    - Can you provide information on jurisdiction?
+    - What does the law say about jurisdiction under this Act?
+
+- intent: inquire_procedure
+  examples: |
+    - What is the procedure for proceedings under this Act?
+    - Explain the procedure under this Act
+    - Can you provide information on the procedure?
+    - What does the law say about the procedure for proceedings under this Act?
+
+- intent: inquire_appeal
+  examples: |
+    - Is there an appeal process under this Act?
+    - Explain the appeal process under this Act
+    - Can you provide information on the appeal process?
+    - What does the law say about appeals under this Act?
+
+- intent: inquire_protection_officers
+  examples: |
+    - What are Protection Officers according to the law?
+    - Explain the role of Protection Officers in this Act
+    - Can you provide information on Protection Officers?
+    - What does the law say about the status of Protection Officers?
+
+- intent: inquire_penalty_breach_protection_order
+  examples: |
+    - What is the penalty for breaching a protection order?
+    - Explain the consequences of breaching a protection order
+    - Can you provide information on penalties for breaching protection orders?
+    - What does the law say about breaches of protection orders?
+
+- intent: inquire_cognizance_proof
+  examples: |
+    - How is the offence under section 31 of the Act treated?
+    - Explain the cognizance and proof requirements for the offence under section 31
+    - Can you provide information on the cognizance and proof of the offence under section 31?
+    - What does the law say about proving offences under section 31?
+
+- intent: inquire_penalty_protection_officer_duty
+  examples: |
+    - What is the penalty for Protection Officers failing to discharge their duties?
+    - Explain the consequences of Protection Officers not fulfilling their duties
+    - Can you provide information on penalties for Protection Officers not discharging their duties?
+    - What does the law say about the duty of Protection Officers?
+
+- intent: inquire_cognizance_offence_protection_officer
+  examples: |
+    - How are offences committed by Protection Officers handled?
+    - Explain the cognizance of offences committed by Protection Officers
+    - Can you provide information on offences committed by Protection Officers?
+    - What does the law say about prosecuting Protection Officers?
+
+- intent: inquire_protection_action_good_faith
+  examples: |
+    - What protection is provided for actions taken in good faith?
+    - Explain the protection for actions taken in good faith under this Act
+    - Can you provide information on protection for actions taken in good faith?
+    - What does the law say about actions taken in good faith?
+
+- intent: inquire_act_not_in_derogation
+  examples: |
+    - How does this Act relate to other laws?
+    - Explain the relationship between this Act and other laws
+    - Can you provide information on how this Act interacts with other laws?
+    - What does the law say about the relationship between this Act and other laws?
+
+
+- intent: inquire_central_government_rules
+  examples: |
+    - What power does the Central Government have regarding rules under this Act?
+    - Explain the authority of the Central Government to make rules for this Act
+    - Can you provide information on the Central Government's power to make rules?
+    - What does the law say about rules made by the Central Government?
+
+- intent: inquire_central_government_rules_qualifications
+  examples: |
+    - What qualifications should a Protection Officer possess as per the rules?
+    - Explain the qualifications required for a Protection Officer under the Central Government's rules
+    - Can you provide information on the qualifications for Protection Officers specified in the rules?
+    - What are the qualifications and experience required for Protection Officers according to the rules?
+
+- intent: inquire_central_government_rules_service_conditions
+  examples: |
+    - What are the terms and conditions of service for Protection Officers under the rules?
+    - Explain the service conditions for Protection Officers and other subordinate officers as per the rules
+    - Can you provide information on the service conditions specified for Protection Officers in the rules?
+    - What do the rules say about the terms and conditions of service for Protection Officers?
+
+- intent: inquire_central_government_rules_domestic_incident_report
+  examples: |
+    - How should a domestic incident report be made according to the rules?
+    - Explain the procedure for making a domestic incident report as per the rules
+    - Can you provide information on the form and manner of making a domestic incident report under the rules?
+    - What does the law say about filing a domestic incident report as per the rules?
+
+- intent: inquire_central_government_rules_application_protection_order
+  examples: |
+    - What is the form and manner for making an application for a protection order under the rules?
+    - Explain how to make an application for a protection order as per the rules
+    - Can you provide information on the form and manner of making an application for a protection order under the rules?
+    - What does the law say about making an application for a protection order as per the rules?
+
+- intent: inquire_central_government_rules_other_matters
+  examples: |
+    - What other matters are covered by the rules?
+    - Explain the additional matters covered by the rules
+    - Can you provide information on other matters covered by the rules?
+    - What does the law say about other matters that may be prescribed under the rules?
+
+
+
+
+
+
+

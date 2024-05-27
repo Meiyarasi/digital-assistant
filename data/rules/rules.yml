@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+
+- rule: Handle inquiry about IPC Section during greeting
+  steps:
+  - intent: inform_ipc_section_dynamic
+  - action: action_query_ipc_section_info
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

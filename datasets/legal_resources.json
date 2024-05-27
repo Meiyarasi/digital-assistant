@@ -1,0 +1,270 @@
+{
+    "legal_resources": [
+        {
+        "title": "India Code",
+        "description": "The official website for Indian laws, providing access to statutes enacted by the Parliament of India.",
+        "link": "https://indiacode.nic.in/"
+        },
+        {
+        "title": "National Legal Services Authority (NALSA)",
+        "description": "An organization providing legal aid and services to the marginalized and underprivileged sections of the society in India.",
+        "link": "https://nalsa.gov.in/"
+        },
+        {
+        "title": "Supreme Court of India",
+        "description": "The highest judicial authority in India, responsible for interpreting the Constitution and laws of the country.",
+        "link": "https://main.sci.gov.in/"
+        },
+        {
+        "title": "Indian Kanoon",
+        "description": "An online platform providing access to Indian case law and legal documents.",
+        "link": "https://indiankanoon.org/"
+        },
+        {
+        "title": "Legislative Department - Ministry of Law and Justice",
+        "description": "The department responsible for drafting and amending laws in India.",
+        "link": "https://legislative.gov.in/"
+        },
+        {
+        "title": "Central Board of Indirect Taxes and Customs (CBIC)",
+        "description": "The nodal national agency responsible for administering customs, GST, and central excise in India.",
+        "link": "https://www.cbic.gov.in/"
+        },
+        {
+        "title": "Department of Legal Affairs - Ministry of Law and Justice",
+        "description": "The department responsible for advising the government of India on legal matters.",
+        "link": "https://doj.gov.in/"
+        },
+        {
+        "title": "Law Commission of India",
+        "description": "An executive body established to review and recommend changes in the legal system of India.",
+        "link": "https://lawcommissionofindia.nic.in/"
+        },
+        {
+        "title": "India Code Information System (ICSIS)",
+        "description": "An online repository providing access to Central and State Acts of India.",
+        "link": "https://indiacode.nic.in/icis/index.html"
+        },
+        {
+        "title": "eCourts Services",
+        "description": "An online platform providing access to case status, cause lists, and judgments of courts in India.",
+        "link": "https://services.ecourts.gov.in/ecourtindia_v6/"
+        },
+      {
+        "title": "United States Code (U.S.C.)",
+        "description": "The official compilation of federal laws enacted by the United States Congress.",
+        "link": "https://uscode.house.gov/"
+      },
+      {
+        "title": "Code of Federal Regulations (CFR)",
+        "description": "A codification of the general and permanent rules published in the Federal Register by the executive departments and agencies of the federal government.",
+        "link": "https://www.ecfr.gov/"
+      },
+      {
+        "title": "Supreme Court of the United States",
+        "description": "The highest court in the federal judiciary of the United States, responsible for interpreting the Constitution and federal law.",
+        "link": "https://www.supremecourt.gov/"
+      },
+      {
+        "title": "Legal Information Institute (LII)",
+        "description": "A comprehensive online resource for legal information, including statutes, regulations, and case law.",
+        "link": "https://www.law.cornell.edu/"
+      },
+      {
+        "title": "FindLaw",
+        "description": "A legal research website providing access to case law, statutes, legal articles, and other legal resources.",
+        "link": "https://www.findlaw.com/"
+      },
+      {
+        "title": "Justia",
+        "description": "A legal portal offering case law, statutes, regulations, legal forms, and legal resources for lawyers, students, and individuals.",
+        "link": "https://www.justia.com/"
+      },
+      {
+        "title": "Westlaw",
+        "description": "A legal research platform providing access to a vast database of case law, statutes, regulations, legal encyclopedias, and secondary sources.",
+        "link": "https://legal.thomsonreuters.com/en/products/westlaw"
+      },
+      {
+        "title": "LexisNexis",
+        "description": "A legal research tool offering access to comprehensive legal content, including case law, statutes, regulations, and legal news.",
+        "link": "https://www.lexisnexis.com/en-us/home.page"
+      },
+      {
+        "title": "Google Scholar",
+        "description": "A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines.",
+        "link": "https://scholar.google.com/"
+      },
+      {
+        "title": "Legal Dictionary",
+        "description": "An online dictionary providing definitions of legal terms and concepts.",
+        "link": "https://www.nolo.com/dictionary/"
+      },
+      {
+        "title": "American Bar Association (ABA)",
+        "description": "A professional association providing resources, publications, and information on legal issues and advocacy.",
+        "link": "https://www.americanbar.org/"
+      },
+      {
+        "title": "National Archives",
+        "description": "An agency responsible for preserving and documenting government and historical records, including legal documents and historical laws.",
+        "link": "https://www.archives.gov/"
+      },
+      {
+        "title": "Legal Information Institute (LII)",
+        "description": "A non-profit organization providing free access to legal information, including primary and secondary legal materials.",
+        "link": "https://www.law.cornell.edu/"
+      },
+      {
+        "title": "Public Library of Law (PLoL)",
+        "description": "A free resource providing access to case law, statutes, regulations, court rules, and legal forms.",
+        "link": "https://www.plol.org/"
+      },
+      {
+        "title": "Federal Trade Commission (FTC)",
+        "description": "A government agency focused on consumer protection and antitrust laws, providing resources and information on legal rights and responsibilities.",
+        "link": "https://www.ftc.gov/"
+      },
+      {
+        "title": "U.S. Department of Justice (DOJ)",
+        "description": "A federal agency responsible for enforcing the law and administering justice, providing legal resources and publications.",
+        "link": "https://www.justice.gov/"
+      },
+      {
+        "title": "Legal Services Corporation (LSC)",
+        "description": "A non-profit organization providing access to justice and legal assistance for low-income individuals, including legal resources and referrals.",
+        "link": "https://www.lsc.gov/"
+      },
+      {
+        "title": "American Civil Liberties Union (ACLU)",
+        "description": "A non-profit organization dedicated to defending and preserving individual rights and liberties, offering legal resources and advocacy.",
+        "link": "https://www.aclu.org/"
+      },
+      {
+        "title": "Cornell Legal Information Institute (LII)",
+        "description": "An online resource providing free access to legal information, including primary and secondary legal materials.",
+        "link": "https://www.law.cornell.edu/"
+      },
+      {
+        "title": "Harvard Law School Library",
+        "description": "A library offering access to legal research materials, including case law, statutes, regulations, and legal literature.",
+        "link": "https://hls.harvard.edu/library/"
+      },
+      {
+        "title": "Yale Law School Library",
+        "description": "A library providing access to legal research resources, including databases, journals, and legal research guides.",
+        "link": "https://library.law.yale.edu/"
+      },
+      {
+        "title": "Stanford Law School Library",
+        "description": "A law library offering access to legal research materials, databases, and legal research assistance.",
+        "link": "https://law.stanford.edu/library/"
+      },
+      {
+        "title": "Legal Aid Society",
+        "description": "An organization providing legal assistance and resources to low-income individuals and families.",
+        "link": "https://www.legalaidnyc.org/"
+      },
+      {
+        "title": "ABA Legal Technology Resource Center",
+        "description": "A resource center providing information and guidance on legal technology, practice management, and legal research tools.",
+        "link": "https://www.americanbar.org/groups/departments_offices/legal_technology_resources/"
+      },
+      {
+        "title": "Internet Archive",
+        "description": "An online digital library providing access to archived web pages, documents, and multimedia content, including legal resources.",
+        "link": "https://archive.org/"
+      },
+      {
+        "title": "LegalZoom",
+        "description": "An online legal service provider offering legal forms, document preparation, and legal advice for individuals and businesses.",
+        "link": "https://www.legalzoom.com/"
+      },
+      {
+        "title": "National Association for Law Placement (NALP)",
+        "description": "An association providing resources and information on legal employment, careers, and professional development.",
+        "link": "https://www.nalp.org/"
+      },
+      {
+        "title": "American Association of Law Libraries (AALL)",
+        "description": "An association supporting law librarians and legal information professionals, offering resources, publications, and conferences.",
+        "link": "https://www.aallnet.org/"
+      },
+      {
+        "title": "Google Scholar",
+        "description": "A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines.",
+        "link": "https://scholar.google.com/"
+      },
+      {
+        "title": "Federal Judiciary",
+        "description": "An online resource providing information on the federal judiciary, including court rules, procedures, and judicial opinions.",
+        "link": "https://www.uscourts.gov/"
+      },
+      {
+        "title": "Legal Information Institute (LII) - State Law Resources",
+        "description": "A collection of resources providing access to state laws, regulations, and legal information.",
+        "link": "https://www.law.cornell.edu/states/listing"
+      },
+      {
+        "title": "National Center for State Courts (NCSC)",
+        "description": "An organization providing research, education, and information on state court systems and legal issues.",
+        "link": "https://www.ncsc.org/"
+      },
+      {
+        "title": "National Center for State Legislatures (NCSL)",
+        "description": "An organization providing resources and information on state legislatures, legislative processes, and state laws.",
+        "link": "https://www.ncsl.org/"
+      },
+      {
+        "title": "National Conference of State Legislatures (NCSL)",
+        "description": "An organization providing resources and information on state legislatures, legislative processes, and state laws.",
+        "link": "https://www.ncsl.org/"
+      },
+      {
+        "title": "National Archives",
+        "description": "An agency responsible for preserving and documenting government and historical records, including legal documents and historical laws.",
+        "link": "https://www.archives.gov/"
+      },
+      {
+        "title": "Legal Services Corporation (LSC) - Find Legal Aid",
+        "description": "An online tool providing access to legal aid programs and services for low-income individuals and families.",
+        "link": "https://www.lsc.gov/what-legal-aid/find-legal-aid"
+      },
+      {
+        "title": "U.S. Government Publishing Office (GPO)",
+        "description": "An agency providing access to government publications, including laws, regulations, and official documents.",
+        "link": "https://www.gpo.gov/"
+      },
+      {
+        "title": "Federal Register",
+        "description": "The official daily publication for rules, proposed rules, and notices of federal agencies and organizations, including legal documents.",
+        "link": "https://www.federalregister.gov/"
+      },
+      {
+        "title": "Legal Services Corporation (LSC) - Self-Help Resources",
+        "description": "An online resource providing self-help materials and information on common legal issues and procedures.",
+        "link": "https://www.lsc.gov/self-help"
+      },
+      {
+        "title": "Legal Aid at Work",
+        "description": "An organization providing free legal services and information on employment rights and workplace fairness.",
+        "link": "https://legalaidatwork.org/"
+      },
+      {
+        "title": "American Immigration Lawyers Association (AILA)",
+        "description": "An association providing resources and information on immigration law, policy, and advocacy.",
+        "link": "https://www.aila.org/"
+      },
+      {
+        "title": "Library of Congress",
+        "description": "The research library that officially serves the United States Congress, providing access to legal research materials and resources.",
+        "link": "https://www.loc.gov/"
+      },
+      {
+        "title": "National Institutes of Health (NIH) - Office of Law &amp; Technology",
+        "description": "An office providing legal resources, policies, and information on intellectual property, technology transfer, and research compliance.",
+        "link": "https://techtransfer.nih.gov/legal"
+      }
+    ]
+  }
+  

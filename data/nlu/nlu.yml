@@ -1,0 +1,350 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: request_information
+  examples: |
+    - I want to obtain information under the RTI Act. How can I proceed?
+    - How do I request information under the RTI Act?
+    - Can you guide me on making a request for information under the RTI Act?
+    - What is the process for obtaining information under the RTI Act?
+    - How can I submit a request for information under the RTI Act?
+    - Can you explain how to make a request for information under the RTI Act?
+    - I need to request information under the RTI Act. What steps should I follow?
+    - How can I request information under the RTI Act?
+    - What is the procedure to file an RTI request?
+    - Can you explain how to obtain information through RTI?
+    - I want to know about filing an RTI application.
+
+- intent: eligible_to_ask
+  examples: |
+    -  who are all eligible to get information under RIT acts ?
+    -  who are all not eligible to get information under RIT acts ?
+    -  who are all eligible to get information?
+    -  who are all eligible under RIT acts ?
+
+- intent: request_mode_written
+  examples: |
+    - Can I make a request for information in writing?
+    - Is it possible to submit a written request for information?
+    - How do I submit a written request for information under the RTI Act?
+    - Should I send my request for information through written means?
+    - Is a written request the preferred mode for seeking information under the RTI Act?
+    - Do I have to submit my request for information in written form?
+
+- intent: request_mode_electronic
+  examples: |
+    - Can I submit a request for information electronically?
+    - Is electronic submission of requests for information allowed?
+    - How can I make an electronic request for information under the RTI Act?
+    - Is it acceptable to send my request for information through electronic means?
+    - Can I use email or online portals to request information under the RTI Act?
+    - What are the guidelines for submitting an electronic request for information?
+
+- intent: request_language_english
+  examples: |
+    - Can I request information in English?
+    - Is it acceptable to make my request for information in English?
+    - How should I frame my request for information in English?
+    - Do I need to translate my request into English before submitting it?
+    - Is English an approved language for requesting information under the RTI Act?
+    - Should I write my request for information in English or another language?
+
+- intent: request_language_hindi
+  examples: |
+    - Can I request information in Hindi?
+    - Is it permissible to make my request for information in Hindi?
+    - What is the process for submitting a request for information in Hindi?
+    - Do I need to translate my request into Hindi before submitting it?
+    - Is Hindi an authorized language for requesting information under the RTI Act?
+    - Should I write my request for information in Hindi or another language?
+
+- intent: request_language_official
+  examples: |
+    - Can I submit my request in the official language of the area?
+    - Is it allowed to make my request in the official language of the region?
+    - How do I request information in the official language of the area?
+    - Should I use the official language of the region for my request?
+    - Is it necessary to translate my request into the official language before submitting it?
+    - Can I use the local language for making a request for information under the RTI Act?
+
+- intent: accompany_fee
+  examples: |
+    - Do I need to accompany a fee with my request for information?
+    - Is there a prescribed fee for submitting a request for information?
+    - How should I pay the fee for my request under the RTI Act?
+    - What is the process for paying the accompanying fee for information requests?
+    - Is there a specific amount of fee required to be submitted with the request?
+    - Can you provide details about the fee required to be submitted with the information request?
+  
+- intent: supported_languages
+  examples: |
+    - What languages are supported for submitting an RTI request?
+    - In which languages can I write my RTI request?
+    - Can I submit my RTI request in languages other than English?
+    - Which languages are acceptable for RTI applications?
+    - What are the supported languages for RTI requests?
+
+- intent: supported_modes
+  examples: |
+    - How can I submit my RTI request?
+    - What are the different modes of submitting an RTI application?
+    - Can I submit my RTI request electronically?
+    - Is there an option for online submission of RTI requests?
+    - What modes of submission are allowed for RTI applications?
+    - In what format will I receive the information requested under RTI?
+    - Are there any specific requirements for the format of documents provided under RTI?
+    - Can I request information in electronic format under RTI?
+    - Is there a preference for paper or digital documents under RTI?
+
+- intent: no_reason_required
+  examples: |
+    - Do I need to provide a reason for requesting information under the RTI Act?
+    - Is it necessary to justify my request for information under the RTI Act?
+    - Can I make a request for information without specifying a reason?
+    - Do I have to provide any personal details when requesting information under the RTI Act?
+    - Is it mandatory to disclose personal information when filing an RTI request?
+
+- intent: minimal_personal_details
+  examples: |
+    - What personal details do I need to provide when making an RTI request?
+    - Are there any specific personal details required for filing an RTI application?
+    - Should I include any personal information in my RTI request?
+    - What are the necessary contact details to be provided with an RTI application?
+    - Can I submit an RTI application without providing extensive personal information?
+
+- intent: identify_cpio_spio
+  examples: |
+    - Who is the Central Public Information Officer (CPIO)?
+    - Can you tell me who the State Public Information Officer (SPIO) is?
+    - How do I find the contact details of the CPIO?
+    - Who can I contact to get information from the government at the central level?
+    - I need to know the name of the SPIO for my state. Can you help me?
+    - Where can I find the details of the CPIO for a specific government department?
+
+- intent: exemption_prejudicial_affect
+  examples: |
+    - What kind of information is exempted from disclosure if it would prejudicially affect the sovereignty and integrity of India?
+    - Can you explain the exemption criteria related to information that may prejudicially affect the security interests of the State?
+    - Under what circumstances is information exempted from disclosure if it could lead to incitement of an offense?
+
+- intent: exemption_forbidden_by_court
+  examples: |
+    - When can information be withheld if it has been expressly forbidden to be published by a court of law or tribunal?
+    - Is there an exemption for information that may constitute contempt of court if disclosed?
+    - Can you provide examples of information that courts have forbidden to be published?
+
+- intent: exemption_breach_of_privilege
+  examples: |
+    - What is the exemption related to information that could cause a breach of privilege of Parliament or the State Legislature?
+    - Can you explain the criteria for withholding information that may cause a breach of legislative privilege?
+    - When can information be exempted from disclosure to prevent a breach of parliamentary privilege?
+
+- intent: exemption_commercial_confidence
+  examples: |
+    - How does the RTI Act handle the disclosure of information related to commercial confidence or trade secrets?
+    - Can you provide examples of information exempted from disclosure to protect the competitive position of a third party?
+    - Under what circumstances can information be withheld if its disclosure would harm the competitive position of a company?
+
+- intent: exemption_fiduciary_relationship
+  examples: |
+    - When can information be exempted from disclosure if it is available to a person in a fiduciary relationship?
+    - Can you explain the exemption criteria related to information held in a fiduciary capacity?
+    - What is the RTI Act's stance on disclosing information held in confidence due to a fiduciary relationship?
+
+- intent: exemption_foreign_government
+  examples: |
+    - Is there any exemption for information received in confidence from a foreign government?
+    - Can you explain when information received from foreign governments is exempt from disclosure?
+    - Under what circumstances can information provided in confidence by a foreign government be withheld?
+
+- intent: exemption_endanger_life
+  examples: |
+    - How does the RTI Act handle information that, if disclosed, would endanger the life or physical safety of any person?
+    - Can you provide examples of information that may endanger someone's safety if disclosed?
+    - Under what circumstances can information be withheld to protect the safety of individuals?
+
+- intent: exemption_impede_investigation
+  examples: |
+    - When can information be exempted from disclosure if its release would impede the process of investigation or prosecution of offenders?
+    - Can you explain the exemption criteria related to information that may impede law enforcement activities?
+    - What types of information can be withheld to ensure the smooth functioning of investigations and prosecutions?
+
+- intent: exemption_cabinet_papers
+  examples: |
+    - Can you explain the exemption related to cabinet papers under the RTI Act?
+    - How does the RTI Act handle the disclosure of records of deliberations of the Council of Ministers and Secretaries?
+    - When can information related to cabinet papers be made public under the RTI Act?
+
+- intent: exemption_personal_information
+  examples: |
+    - What is the exemption related to personal information under the RTI Act?
+    - Can you explain when personal information is exempted from disclosure under the RTI Act?
+    - How does the RTI Act protect the privacy of individuals in relation to the disclosure of personal information?
+
+- intent: exemption_denied_to_parliament
+  examples: |
+    - Is there any provision in the RTI Act that allows information to be denied to Parliament or a State Legislature?
+    - Can you explain when information that cannot be denied to Parliament or a State Legislature can still be withheld from individuals?
+    - Under what circumstances can information be denied to individuals even if it cannot be denied to Parliament or a State Legislature?
+
+- intent: appeal_denial
+  examples: |
+    - I received a denial of my RTI request. How can I appeal against it?
+    - What is the process for filing an appeal if my RTI request is denied?
+    - How do I challenge the decision on my RTI request?
+    - Can I appeal if my RTI request is rejected?
+
+- intent: public_authority
+  examples: |
+    - How do I identify the public authority to whom I should address my RTI request?
+    - Can you help me find the correct government department for my RTI query?
+    - What is the process for determining the relevant public authority for an RTI request?
+    - Where can I find information about the designated PIO for my RTI application?
+
+- intent: penalties
+  examples: |
+    - What penalties apply if a public authority fails to respond to an RTI request?
+    - Are there any consequences for violating the provisions of the RTI Act?
+    - Can public officials be penalized for not complying with RTI requirements?
+    - How are penalties enforced for non-compliance with RTI obligations?
+
+- intent: budget_allocation
+  examples: |
+    - How is the budget allocated to government agencies under the RTI Act?
+    - Where can I find information about the budget allocated to a specific government department?
+    - Are there any reports available on the disbursement of funds under RTI?
+    - Can I obtain details about the proposed expenditures of government agencies through RTI?
+
+- intent: consultation_process
+  examples: |
+    - Is there a process for public consultation in the formulation of government policies under RTI?
+    - How can citizens participate in decision-making processes under RTI?
+    - Are there any mechanisms for public input in policy development under RTI?
+    - Can you provide information about the consultation process for drafting new laws or regulations?
+
+- intent: subsidy_programs
+  examples: |
+    - How are subsidy programs executed under the RTI Act?
+    - Where can I find details about government subsidy programs?
+    - Can I obtain information about the beneficiaries of subsidy programs through RTI?
+    - Are there any reports available on the implementation of subsidy programs under RTI?
+
+- intent: information_availability
+  examples: |
+    - How can I verify the availability of specific information under the RTI Act?
+    - Is there a database or portal where I can check if certain information is already available?
+    - Are there any guidelines on the accessibility of information under RTI?
+    - Can you provide information on the availability of historical documents or records under RTI?
+  
+- intent: timeline_query
+  examples: |
+    - What is the timeline for processing an RTI application?
+    - How long does it typically take to receive a response to an RTI request?
+    - Is there a deadline for public authorities to respond to RTI queries?
+    - Can I expect a prompt response to my RTI application?
+  
+- intent: record_retention
+  examples: |
+    - How long are records retained by public authorities under RTI?
+    - Are there any guidelines on the retention period for RTI-related documents?
+    - Can I request access to historical records under RTI?
+    - Is there a policy on the disposal of records maintained by public authorities under RTI?
+
+- intent: ask_about_rti_act
+  examples: |
+    - What is the RTI Act?
+    - Can you explain the Right to Information Act?
+    - What does the RTI Act allow citizens to do?
+    - I want to learn more about the RTI Act.
+    - Could you provide an overview of the RTI Act, 2005?
+    - What is the purpose of the RTI Act?
+

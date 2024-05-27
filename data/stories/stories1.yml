@@ -1,0 +1,63 @@
+version: "3.1"
+
+stories:
+
+- story: User asks about punishment
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform
+  - action: utter_ask_age
+  - intent: provide_age_punishment
+    entities:
+    - age_a: "twenty one"
+    - age_b: "twenty eight"
+  - action: utter_ask_gender
+  - intent: provide_gender
+    entities:
+    - gender_a: "male"
+    - gender_b: "male"
+  - action: utter_ask_weapon
+  - intent: provide_weapon
+    entities:
+    - weapon: "knife"
+  - action: utter_punishment
+  - action: action_punishment_decision
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
+- story: Register marriage
+  steps:
+  - intent: register_marriage
+  - action: utter_ask_age_marriage
+  - intent: provide_age_marriage
+    entities:
+    - partner_a: "21"
+    - partner_b: "19"
+  - action: utter_ask_marriage_location
+  - intent: provide_marriage_location
+    entities:
+    - marriage_location: "temple"
+  - action: utter_ask_relation
+  - intent: provide_relation
+    entities:
+    - relation: "uncle's son"
+  - action: utter_confirm_mental_condition
+  - intent: confirm_mental_condition
+    entities:
+    - mental: "no"
+  - action: utter_confirm_forced_marriage
+  - intent: confirm_forced_marriage
+    entities:
+    - force: "no"
+  - action: utter_ask_marriage_type
+  - intent: provide_marriage_type
+    entities:
+    - marriage_type: "community based"
+  - action: action_make_decision 
+  - intent: goodbye
+  - action: utter_goodbye
+
+  

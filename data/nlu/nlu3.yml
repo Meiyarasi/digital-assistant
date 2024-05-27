@@ -1,0 +1,717 @@
+version: "3.1"
+
+nlu:
+
+- intent: ask_about_it_act
+  examples: |
+    - Explain about IT act 2000?
+    - what is IT act?
+    - what is IT act 2000?
+    - can you explain about IT act 2000?
+    - tell me about IT act?
+
+- intent: authenticate_electronic_record
+  examples: |
+    - How can I authenticate an electronic record?
+    - What is the process of authenticating an electronic record?
+    - Can you explain how to authenticate an electronic record?
+    - How do I use digital signatures to authenticate records?
+    - explain authenticate an electronic record?
+    - tell me about authenticate an electronic record?
+
+- intent: know_electronic_record
+  examples: |
+    - electronic record
+    - electronic records
+
+- intent: known_terms
+  examples: |
+    - terms
+    - term
+
+- intent: next
+  examples: |
+    - next
+    - further more
+    - continue
+
+- intent: verification_of_electronic_record
+  examples: |
+    - Can you explain how to verify an authenticated electronic record?
+    - Can you explain how to verify an electronic record?
+    - how does the verification process work?
+    - Can you explain the procedure for verifying electronic signatures?
+    - Can you explain the procedure for verifying electronic signatures?
+
+
+- intent: legal_recognition_electronic_records
+  examples: |
+    - What is the legal recognition of electronic records?
+    - Can you explain the legal status of electronic records?
+    - How are electronic records legally recognized?
+
+- intent: legal_recognition_electronic_signatures
+  examples: |
+    - What is the legal recognition of electronic signatures?
+    - Can you explain how electronic signatures are legally recognized?
+    - How are electronic signatures treated under the law?
+    - what are the key provisions regarding electronic signature?
+    - what is digital signature?
+    - what is elctronic signature?
+
+- intent: use_electronic_records_signatures_government
+  examples: |
+    - How are electronic records and signatures used in government?
+    - Can you explain the use of electronic records and signatures by government agencies?
+    - What is the role of electronic records and signatures in government operations?
+
+- intent: retention_electronic_records
+  examples: |
+    - What are the rules for retention of electronic records?
+    - How long should electronic records be retained?
+    - Can you explain the retention requirements for electronic records?
+
+- intent: electronic_record_attribution
+  examples: |
+    - What is electronic record attribution?
+    - Explain electronic record attribution
+    - Can you tell me about electronic record attribution?
+    - What does the law say about electronic record attribution?
+    - characteristics of electronic record?
+
+- intent: acknowledgment_of_receipt
+  examples: |
+    - What is acknowledgment of receipt?
+    - Explain acknowledgment of receipt
+    - Can you tell me about acknowledgment of receipt?
+    - What does the law say about acknowledgment of receipt?
+
+- intent: stipulated_acknowledgment_requirement
+  examples: |
+    - What happens if acknowledgment is stipulated?
+    - Can you explain acknowledgment requirement stipulation?
+    - Tell me about stipulated acknowledgment requirement
+    - What if acknowledgment is required?
+
+- intent: no_stipulation_acknowledgment
+  examples: |
+    - What if there's no stipulation for acknowledgment?
+    - Explain acknowledgment if not stipulated
+    - Tell me about acknowledgment when not stipulated
+    - What happens without acknowledgment stipulation?
+
+- intent: despatch_and_receipt
+  examples: |
+    - How are electronic records dispatched and received?
+    - Explain despatch and receipt of electronic records
+    - Can you tell me about despatch and receipt of electronic records?
+    - What does the law say about despatch and receipt of electronic records?
+
+- intent: secure_electronic_records
+  examples: |
+    - What is a secure electronic record?
+    - Explain secure electronic records
+    - Can you tell me about secure electronic records?
+    - What does the law say about secure electronic records?
+    - how to secure electronic record?
+
+- intent: secure_electronic_signature
+  examples: |
+    - What is a secure electronic signature?
+    - Explain secure electronic signatures
+    - Can you tell me about secure electronic signatures?
+    - What does the law say about secure electronic signatures?
+
+
+- intent: security_procedures_practices
+  examples: |
+    - What are the security procedures and practices?
+    - Explain security procedures and practices
+    - Can you tell me about security procedures and practices?
+    - What does the law say about security procedures and practices?
+
+
+- intent: controller_appointment
+  examples: |
+    - What is the process for appointment of Controller and other officers?
+    - Explain the appointment of Controller and officers
+    - How are the Controller and other officers appointed?
+
+- intent: controller_functions
+  examples: |
+    - What are the functions of the Controller?
+    - Explain the duties of the Controller
+    - What tasks does the Controller perform?
+
+- intent: foreign_authority_recognition
+  examples: |
+    - How does the recognition of foreign Certifying Authorities work?
+    - Explain the recognition process for foreign Certifying Authorities
+    - What are the conditions for recognizing foreign authorities?
+
+- intent: licence_application
+  examples: |
+    - How can one apply for a licence to issue electronic signature Certificates?
+    - Explain the process for applying for a licence to issue electronic signature Certificates
+    - What are the steps to get a licence for electronic signature Certificates?
+
+- intent: licence_revocation
+  examples: |
+    - What happens in case of licence suspension or revocation?
+    - Explain the procedure for suspending or revoking a licence
+    - How is a licence revoked or suspended?
+
+- intent: authority_compliance
+  examples: |
+    - What are the compliance requirements for Certifying Authorities?
+    - Explain the regulations that Certifying Authorities need to comply with
+    - What rules do Certifying Authorities have to follow?
+
+- intent: display_licence_requirement
+  examples: |
+    - Is there a requirement to display the licence?
+    - What are the rules regarding displaying the licence?
+    - Do Certifying Authorities need to display their licences?
+
+- intent: surrender_licence
+  examples: |
+    - What happens when a licence is suspended or revoked?
+    - Explain the process of surrendering a licence
+    - How does a Certifying Authority surrender its licence?
+
+- intent: disclosure_requirements
+  examples: |
+    - What information needs to be disclosed by Certifying Authorities?
+    - Explain the disclosure requirements for Certifying Authorities
+    - What details do Certifying Authorities have to disclose?
+
+- intent: certificate_application
+  examples: |
+    - How can I apply for an electronic signature Certificate?
+    - What is the process for getting an electronic signature Certificate?
+    - Explain the application procedure for an electronic signature Certificate.
+
+- intent: certificate_representation
+  examples: |
+    - What representations are made upon issuance of a Digital Signature Certificate?
+    - Explain the certifications made by Certifying Authorities for Digital Signature Certificates.
+    - What assurances are provided when a Digital Signature Certificate is issued?
+
+- intent: certificate_suspension
+  examples: |
+    - How can a Digital Signature Certificate be suspended?
+    - What are the reasons for suspending a Digital Signature Certificate?
+    - Explain the process of suspending a Digital Signature Certificate.
+
+- intent: certificate_revocation
+  examples: |
+    - When can a Digital Signature Certificate be revoked?
+    - What are the grounds for revoking a Digital Signature Certificate?
+    - Explain the revocation process for a Digital Signature Certificate.
+
+- intent: notice_suspension_revocation
+  examples: |
+    - How are notices of suspension or revocation of Digital Signature Certificates published?
+    - What is the procedure for notifying about the suspension or revocation of Digital Signature Certificates?
+    - Explain how Certifying Authorities communicate suspension or revocation of Digital Signature Certificates.
+
+- intent: electronic_signature_certificate_duties
+  examples: |
+    - What are the duties of subscribers regarding generating key pairs?
+    - Can you explain the responsibilities related to generating key pairs for Digital Signature Certificates?
+    - What are the subscriber's duties concerning the generation of key pairs for Digital Signature Certificates?
+    - what are the duties of subscribers?
+
+- intent: digital_signature_certificate_acceptance
+  examples: |
+    - How can a subscriber demonstrate acceptance of a Digital Signature Certificate?
+    - What actions indicate acceptance of a Digital Signature Certificate by a subscriber?
+    - Can you explain how subscribers accept Digital Signature Certificates?
+
+- intent: private_key_control
+  examples: |
+    - What are the responsibilities of subscribers regarding the control of their private keys?
+    - Can you explain how subscribers should control their private keys?
+    - What are the duties of subscribers in controlling their private keys for Digital Signature Certificates?
+
+- intent: private_key_failure_consequences
+  examples: |
+    - What happens if a subscriber fails to protect their private key?
+    - Can you explain the consequences of compromising a private key for a Digital Signature Certificate?
+    - What are the repercussions of a subscriber failing to control their private key?
+
+- intent: unauthorized_access
+  examples: |
+    - Accessing a computer system without permission
+    - Securing access to a computer network without authorization
+    - What are the penalties and compensations for unauthorized access?
+    - Explain penalties for unauthorized access.
+    - Compensation for damage to a computer system?
+    - What penalties are there for failure to protect data?
+    - what is the punishment of misuse of data in a system?
+    - what is the punishment for stealing of data in a system?
+
+- intent: unauthorized_access_example
+  examples: |
+    - Can you give an example of unauthorized access?
+    - Explain unauthorized access with an example.
+
+- intent: damage_to_system_example
+  examples: |
+    - Could you provide an example of damage to a computer system?
+    - Explain damage to computer system with an example.
+
+- intent: introduce_virus
+  examples: |
+    - Introducing a computer virus into a system
+    - Causing harm by injecting malware into a computer network
+
+- intent: damage_computer_network
+  examples: |
+    - Disrupting a computer network
+    - Denying access to authorized users
+
+- intent: failure_to_protect_data
+  examples: |
+    - Failure to protect data
+    - Negligence in data security
+
+- intent: failure_to_protect_data_example
+  examples: |
+    - Can you give an example of failure to protect data?
+    - Explain failure to protect data with an example.
+
+- intent: adjudication_authority
+  examples: |
+    - Adjudication authority
+    - Who has the power to adjudicate?
+
+- intent: penalties_determination
+  examples: |
+    - How are penalties determined?
+    - Factors for determining penalties
+
+- intent: appellate_tribunal_inquiry
+  examples: |
+    - What is the process to appeal to the Appellate Tribunal?
+    - How can I appeal to the Appellate Tribunal?
+    - Explain the procedure for appealing to the Appellate Tribunal.
+
+- intent: appeal_filing_time_limit
+  examples: |
+    - What is the time limit for filing an appeal?
+    - How long do I have to file an appeal?
+    - Explain the deadline for filing an appeal.
+
+- intent: post_appeal_process
+  examples: |
+    - What happens after I file an appeal?
+    - Can you explain the process after filing an appeal?
+    - What is the next step after appealing to the Appellate Tribunal?
+
+- intent: appeal_resolution_timeframe
+  examples: |
+    - How long does it take to resolve an appeal?
+    - What is the timeframe for resolving an appeal?
+    - Explain the duration for appeal resolution.
+
+- intent: compounding_contraventions_inquiry
+  examples: |
+    - What is compounding contraventions?
+    - Can you explain the concept of compounding contraventions?
+    - What does it mean to compound contraventions?
+
+- intent: compounding_contraventions_limitations
+  examples: |
+    - Are there any limitations on compounding contraventions?
+    - What are the restrictions on compounding contraventions?
+    - Explain the conditions for compounding contraventions.
+
+- intent: penalty_non_payment_consequences
+  examples: |
+    - What are the consequences of not paying the penalty?
+    - Can you explain what happens if I don't pay the penalty?
+    - What are the repercussions of non-payment of penalty?
+    - What are the impact of not paying the penalty?
+
+- intent: tampering_with_source_code
+  examples: |
+    - I suspect someone has tampered with our company's computer source code.
+    - What are the penalties for tampering with computer source documents?
+    - Can you explain the punishment for altering computer source code?
+    - What does the law say about concealing computer source code?
+    - Tell me about the consequences of tampering with computer source documents.
+    - Explain the definition of computer source code under the law.
+    - What actions are considered illegal regarding computer source code?
+    - Is there a penalty for intentionally altering computer programs?
+    - What are the possible punishments for destroying computer source code?
+    - I suspect someone has tampered with our company's computer source code.
+    - Our source code seems to have been altered without authorization.
+
+- intent: Computer_Related_Offences
+  examples: |
+    - What are the penalties for computer-related offences?
+    - Can you explain the punishment for fraudulent acts related to computers?
+    - What constitutes a computer-related offence under the law?
+    - Tell me about the consequences of dishonest actions regarding computers.
+    - Is there a penalty for fraudulent activities involving computers?
+    - What are the possible punishments for computer-related crimes?
+    - What are the crimes comes under this act?
+    - Explain the legal definition of dishonesty in the context of computer offences.
+    - Define fraudulent behavior as per the law in relation to computers.
+
+- intent: Sending_Offensive_Messages
+  examples: |
+    - What are the penalties for sending offensive messages through communication services?
+    - Can you explain the punishment for sending false information with the intent to cause annoyance?
+    - What does the law say about sending grossly offensive messages using a computer resource?
+    - Tell me about the consequences of persistently sending menacing messages via electronic mail.
+    - Is there a penalty for sending misleading electronic mail messages?
+    - What actions are considered illegal regarding sending offensive messages through communication devices?
+
+- intent: Punishment_Receiving_Stolen_Computer_Resource
+  examples: |
+    - What is the punishment for receiving stolen computer resources?
+    - Can you explain the penalty for retaining stolen communication devices?
+    - What are the consequences of dishonestly retaining stolen computer resources?
+    - Tell me about the punishment for knowingly receiving stolen communication devices.
+
+- intent: Punishment_Identity_Theft
+  examples: |
+    - What is the punishment for identity theft using electronic signatures?
+    - Can you explain the penalty for fraudulent use of unique identification features?
+    - What are the consequences of dishonestly using another person's password?
+    - Tell me about the punishment for making fraudulent use of electronic signatures.
+
+- intent: Punishment_Cheating_by_Personation
+  examples: |
+    - What is the punishment for cheating by personation using computer resources?
+    - Can you explain the penalty for cheating by impersonation via communication devices?
+    - What are the consequences of cheating by personation using electronic means?
+    - Tell me about the punishment for fraudulent use of another's identity online.
+
+- intent: Punishment_Violation_of_Privacy
+  examples: |
+    - What is the punishment for violating privacy by capturing private images?
+    - Can you explain the penalty for publishing private images without consent?
+    - What are the consequences of transmitting private images without permission?
+    - Tell me about the punishment for intentionally capturing private areas without consent.
+
+- intent: Punishment_Cyber_Terrorism
+  examples: |
+    - What is the punishment for cyber terrorism in India?
+    - Can you explain the penalty for threatening the unity of India through cyber means?
+    - What are the consequences of attempting to disrupt essential services through cyber attacks?
+    - Tell me about the punishment for causing damage to critical information infrastructure through cyber terrorism.
+
+- intent: obscene_material
+  examples: |
+    - What are the punishments for publishing obscene material in electronic form?
+    - Can you explain the consequences of transmitting lascivious content electronically?
+    - What is the penalty for distributing material that appeals to the prurient interest?
+    - Explain the punishment for publishing material that tends to deprave and corrupt individuals.
+
+- intent: sexually_explicit_content
+  examples: |
+    - What are the repercussions of publishing sexually explicit material online?
+    - Can you detail the punishment for transmitting content containing sexually explicit acts?
+    - What are the consequences of sharing sexually explicit conduct electronically?
+    - Explain the legal actions against those who cause to publish material with sexually explicit acts.
+
+- intent: child_exploitation_content
+  examples: |
+    - What is the punishment for publishing material depicting children in sexually explicit acts?
+    - Can you elaborate on the penalties for creating or distributing indecent material involving children?
+    - What actions lead to imprisonment for facilitating online abuse against children?
+    - Explain the legal consequences for recording one's abuse or that of others involving children.
+
+- intent: exceptions_to_law
+  examples: |
+    - Are there any exceptions to the laws regarding obscene material in electronic form?
+    - Can you explain the circumstances under which the publication of certain materials is justified?
+    - What qualifies as bona fide heritage or religious purposes according to the law?
+    - Explain the exceptions to the sections concerning obscene and sexually explicit content.
+
+- intent: information_retention
+  examples: |
+    - What are the requirements for intermediaries regarding the preservation of information?
+    - Can you explain the obligations of intermediaries to retain specified information?
+    - What are the consequences for intermediaries who fail to preserve required data?
+    - Explain the penalties for intentionally contravening the provisions regarding information retention.
+
+
+- intent: breach_confidentiality_privacy
+  examples: |
+    - What is the penalty for breaching confidentiality and privacy under this Act?
+    - Can you explain the consequences of disclosing electronic records without consent?
+    - What punishment applies if someone discloses personal information without authorization?
+    - Explain the legal repercussions for accessing and disclosing electronic material without consent.
+
+- intent: breach_contract_disclosure
+  examples: |
+    - What is the punishment for disclosing information in breach of a lawful contract?
+    - Can you explain the penalties for disclosing personal information obtained through a contract?
+    - What actions lead to imprisonment for disclosing material without consent as per lawful contracts?
+    - Explain the consequences for intermediaries who disclose personal information against lawful contracts.
+
+
+- intent: false_signature_certificate
+  examples: |
+    - What is the penalty for publishing a false electronic signature certificate?
+    - Can you explain the consequences of making a false electronic signature certificate available to others?
+    - What punishment applies if someone publishes an electronic signature certificate knowing it's false?
+    - Explain the legal repercussions for publishing an electronic signature certificate with incorrect particulars.
+
+- intent: reasons_false_signature_certificate
+  examples: |
+    - Why is it illegal to publish an electronic signature certificate with false information?
+    - What are the conditions under which publishing a false electronic signature certificate is allowed?
+    - Can you explain the circumstances in which publishing a false electronic signature certificate is permissible?
+    - What are the exceptions for publishing an electronic signature certificate with incorrect details?
+
+- intent: fraudulent_signature_certificate
+  examples: |
+    - What is the penalty for creating or publishing an electronic signature certificate for a fraudulent purpose?
+    - Can you explain the consequences of making available a fraudulent electronic signature certificate?
+    - What punishment applies if someone knowingly creates or publishes a fraudulent electronic signature certificate?
+    - Explain the legal repercussions for using an electronic signature certificate for unlawful purposes.
+
+- intent: controller_directions
+  examples: |
+    - What are the powers of the Controller to give directions regarding electronic signatures?
+    - Can you explain the authority of the Controller to issue directions to Certifying Authorities?
+    - What actions can the Controller take to ensure compliance with the provisions of the Act regarding electronic signatures?
+    - Explain the penalties for failing to comply with the Controller's directions regarding electronic signatures.
+
+- intent: interception_monitoring_decryption
+  examples: |
+    - What is the power to issue directions for interception, monitoring, or decryption of information through computer resources?
+    - Can you explain the circumstances under which interception, monitoring, or decryption of information is allowed?
+    - What safeguards are in place for interception, monitoring, or decryption of information through computer resources?
+    - Explain the responsibilities of subscribers, intermediaries, or persons in-charge regarding interception, monitoring, or decryption of information.
+
+- intent: blocking_public_access
+  examples: |
+    - What is the power to issue directions for blocking public access to information through computer resources?
+    - Can you explain when and why public access to information through computer resources may be blocked?
+    - What procedures are followed for blocking public access to information through computer resources?
+    - Explain the penalties for intermediaries failing to comply with the directions for blocking public access to information.
+
+- intent: monitoring_traffic_data
+  examples: |
+    - What is the power to authorize monitoring and collection of traffic data through computer resources for cyber security?
+    - Can you explain the reasons for monitoring and collecting traffic data through computer resources?
+    - What procedures and safeguards are in place for monitoring and collecting traffic data through computer resources?
+    - Explain the penalties for intermediaries failing to comply with the authorization for monitoring and collecting traffic data.
+
+
+- intent: declare_protected_system
+  examples: |
+    - What is a protected system according to the Act?
+    - Can you explain the concept of a protected system as per the law?
+    - What does it mean for a computer resource to be declared a protected system?
+    - Explain the criteria for designating a computer resource as a protected system.
+
+- intent: access_protected_system
+  examples: |
+    - Who can access protected systems as per the law?
+    - What authorization is required to access a protected system?
+    - Can you explain the penalties for unauthorized access to protected systems?
+    - Explain the legal consequences of attempting to access a protected system without authorization.
+
+- intent: prescribe_information_security
+  examples: |
+    - What are the information security practices and procedures prescribed for protected systems?
+    - Can you explain the regulations regarding information security for protected systems?
+    - What measures does the Central Government prescribe for securing protected systems?
+    - Explain the role of the Central Government in setting information security standards for protected systems.
+
+- intent: designate_national_nodal_agency
+  examples: |
+    - What is the role of the national nodal agency in Critical Information Infrastructure Protection?
+    - Can you explain the designation process for the national nodal agency?
+    - What responsibilities does the national nodal agency have regarding Critical Information Infrastructure?
+    - Explain the functions and duties of the national nodal agency designated by the Central Government.
+
+- intent: appoint_indian_computer_emergency_response_team
+  examples: |
+    - What is the Indian Computer Emergency Response Team (CERT-In)?
+    - Can you explain the appointment process for CERT-In?
+    - What functions does CERT-In serve as the national agency for incident response?
+    - Explain the role of CERT-In in handling cyber security incidents.
+
+- intent: duties_of_indian_computer_emergency_response_team
+  examples: |
+    - What are the functions performed by CERT-In in the area of cyber security?
+    - Can you list the responsibilities of CERT-In as the national agency for incident response?
+    - What actions does CERT-In take regarding cyber incidents?
+    - Explain the role of CERT-In in issuing guidelines and advisories related to cyber security practices.
+
+- intent: penalties_for_noncompliance
+  examples: |
+    - What penalties apply for failing to comply with the directions of the national agency for incident response?
+    - Can you explain the consequences of not providing information or complying with directions from CERT-In?
+    - What are the legal repercussions for service providers, intermediaries, or data centers failing to cooperate with CERT-In?
+    - Explain the punishment for noncompliance with CERT-In's directives.
+
+
+- intent: penalty_misrepresentation
+  examples: |
+    - What is the penalty for misrepresentation to the Controller or Certifying Authority?
+    - Can you explain the consequences of making misrepresentation to obtain a license or electronic signature certificate?
+    - What punishment applies for suppressing material facts from the Controller or Certifying Authority?
+    - Explain the legal repercussions for providing false information to obtain a license or electronic signature certificate.
+
+
+- intent: apply_to_offence_outside_india
+  examples: |
+    - Does the Act apply to offences committed outside India?
+    - Can you explain the applicability of the Act to offences committed outside India?
+    - What are the provisions regarding offences committed outside India under this Act?
+
+- intent: confiscation
+  examples: |
+    - What items are liable to confiscation under the Act?
+    - Can you explain the provisions regarding confiscation of items under this Act?
+    - What accessories related to computers are subject to confiscation under the Act?
+
+- intent: compensation_penalties_not_interfere
+  examples: |
+    - Does compensation, penalties, or confiscation under this Act interfere with other punishments?
+    - Can you explain if the penalties or confiscation under this Act affect other punishments?
+    - What are the provisions regarding compensation, penalties, or confiscation not interfering with other punishments under this Act?
+
+- intent: compounding_of_offences
+  examples: |
+    - What is the process for compounding offences under this Act?
+    - Can you explain the provisions for compounding offences under this Act?
+    - How can an accused file for compounding of an offence under this Act?
+
+- intent: bailable_offences
+  examples: |
+    - Which offences under this Act are bailable?
+    - Can you explain which offences are considered bailable under this Act?
+    - What are the provisions regarding bailable offences under this Act?
+
+- intent: power_to_investigate_offences
+  examples: |
+    - Who has the power to investigate offences under this Act?
+    - Can you explain the authority responsible for investigating offences under this Act?
+    - What rank of police officer investigates offences under this Act?
+
+
+- intent: exemption_from_liability
+  examples: |
+    - What is the exemption from liability of intermediaries according to the law?
+    - Can you explain the liability exemption for intermediaries in certain cases?
+    - What are the provisions regarding intermediary liability exemption?
+    - Explain the circumstances under which intermediaries are not liable for third party information.
+    - When is an intermediary not liable for third party information, data, or communication links?
+
+
+- intent: exemption_from_liability
+  examples: |
+    - What is the exemption from liability of intermediaries according to the law?
+    - Can you explain the liability exemption for intermediaries in certain cases?
+    - What are the provisions regarding intermediary liability exemption?
+    - Explain the circumstances under which intermediaries are not liable for third party information.
+    - When is an intermediary not liable for third party information, data, or communication links?
+
+- intent: notify_examiner_of_electronic_evidence
+  examples: |
+    - What is the process for notifying an Examiner of Electronic Evidence by the Central Government?
+    - Can you explain how the Central Government notifies an Examiner of Electronic Evidence?
+    - What does the law say about the Central Government specifying an Examiner of Electronic Evidence?
+    - Explain the Central Government's authority to specify an Examiner of Electronic Evidence.
+
+
+- intent: power_of_police_officer
+  examples: |
+    - What is the power of a police officer under the Act?
+    - Can a police officer search and arrest without a warrant?
+    - Explain the authority of a police officer mentioned in the Act.
+
+- intent: act_overriding_effect
+  examples: |
+    - How does the Act override other laws?
+    - What is the effect of the Act in relation to other laws?
+    - Explain the overriding effect of the Act.
+
+- intent: apply_to_electronic_cheque
+  examples: |
+    - Does the Act apply to electronic cheques?
+    - What provisions of the Act apply to electronic cheques?
+    - Explain the application of the Act to electronic and truncated cheques.
+
+- intent: controller_to_be_public_servant
+  examples: |
+    - Are the Controller and Deputy Controller considered public servants?
+    - Who is deemed to be a public servant under the Act?
+    - Explain the status of the Controller under the Act.
+
+- intent: give_directions
+  examples: |
+    - Can the Central Government give directions to State Governments?
+    - What authority does the Central Government have to issue directions?
+    - Explain the power of the Central Government to give directions.
+
+- intent: protection_of_action_taken
+  examples: |
+    - Is there protection for actions taken in good faith under the Act?
+    - Can legal action be taken against the Central Government for actions done in good faith?
+    - Explain the protection provided for actions taken under the Act.
+
+- intent: modes_or_methods_for_encryption
+  examples: |
+    - What are the prescribed modes or methods for encryption?
+    - Can you explain the encryption guidelines provided by the Central Government?
+    - Describe the methods for encryption under the Act.
+
+- intent: punishment_for_abetment
+  examples: |
+    - What is the punishment for abetment of offences under the Act?
+    - Can someone be punished for aiding in the commission of an offence?
+    - Explain the consequences of abetting offences under the Act.
+
+- intent: punishment_for_attempt_to_commit_offences
+  examples: |
+    - What is the punishment for attempting to commit offences under the Act?
+    - Can someone be punished for attempting to commit an offence?
+    - Describe the penalties for attempting to commit offences under the Act.
+
+- intent: offences_by_companies
+  examples: |
+    - How are offences by companies treated under the Act?
+    - Can individuals be held responsible for offences committed by a company?
+    - Explain the liability of individuals and companies for contraventions under the Act.
+
+- intent: removal_of_difficulties
+  examples: |
+    - What provisions are made for the removal of difficulties under the Act?
+    - Can the Central Government address difficulties arising from the Act?
+    - Explain the procedure for resolving difficulties under the Act.
+
+- intent: power_of_central_govt_to_make_rules
+  examples: |
+    - What authority does the Central Government have to make rules under the Act?
+    - Can the Central Government enact rules related to electronic signatures?
+    - Describe the power of the Central Government to make rules under the Act.
+
+- intent: constitution_of_advisory_committee
+  examples: |
+    - What is the Cyber Regulations Advisory Committee?
+    - Who constitutes the Advisory Committee under the Act?
+    - Explain the role of the Advisory Committee in cyber regulations.
+
+- intent: power_of_controller_to_make_regulations
+  examples: |
+    - Can the Controller make regulations under the Act?
+    - What is the process for making regulations under the Act?
+    - Describe the authority of the Controller to enact regulations.
+
+- intent: power_of_state_govt_to_make_rules
+  examples: |
+    - Can the State Government make rules under the Act?
+    - What powers do State Governments have in enacting rules related to the Act?
+    - Explain the authority of State Governments to make rules.
+

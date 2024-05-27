@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Resources</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Add custom styles here */
+
+        /* Style for card titles */
+        .card-title {
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Style for card text */
+        .card-text {
+            color: #666;
+        }
+
+        /* Style for card links */
+        .card-link {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        /* Hover effect for card links */
+        .card-link:hover {
+            color: #0056b3;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Legal Resources</h1>
+        <div class="row">
+            <!-- Iterate over the legal resources -->
+            {% for resource in legal_resources %}
+            <div class="col-lg-4 col-md-6">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ resource['title'] }}</h5>
+                        <p class="card-text">{{ resource['description'] }}</p>
+                        <a href="{{ resource['link'] }}" class="card-link">Visit</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

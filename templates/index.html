@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Assistant</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-side {
+            width: 60%;
+            background-color: #fff8dc; 
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            color: rgb(255, 140, 0);
+        }
+        .right-side {
+            width: 40%;
+            background-color: #ffffff; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 25%;
+        }
+        .small-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 36px;
+            word-wrap: break-word; 
+            white-space: normal; 
+            margin-bottom: 20px;
+            overflow: hidden;
+        
+        }
+        .typing {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingAnimation 4s steps(40) forwards;
+        }
+        @keyframes typingAnimation {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        .get-started {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            color: white;
+            background-color:rgb(60, 60, 240);
+            width: 110px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #3502cc; 
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .left-side, .right-side {
+                width: 100%;
+            }
+            .left-side {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .title {
+                font-size: 24px;
+            }
+            .small-title {
+                font-size: 24px;
+            }
+            .description {
+                font-size: 24px;
+            }
+            .right-side {
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="small-title">Digital Assistant</div>
+            <div class="title">Title</div>
+            <div class="description">
+                <span class="typing">Description text will appear here.</span>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="get-started">Get Started</div>
+            <div class="buttons">
+                <a href="/login" class="button">Login</a>
+                <a href="/signup" class="button">Sign Up</a>                
+            </div>
+        </div>
+    </div>
+
+    <script>
+    
+        const data = [
+            { title: "Connecting Justice for All", description: "Bringing legal services closer to communities, ensuring access for everyone." },
+            { title: "Empowering Through Knowledge", description: "Educating individuals about their legal rights and responsibilities." },
+            { title: "Ensuring Equal Access to Justice", description: "Providing legal assistance to underserved communities, promoting equality and fairness for all." },
+            { title: "Innovating Legal Access", description: "Using technology to simplify legal processes and make them more accessible." }
+        
+        ];
+
+        
+        function displayContent() {
+            const leftSide = document.querySelector(".left-side");
+            const titleElem = leftSide.querySelector(".title");
+            const descriptionElem = leftSide.querySelector(".description");
+            
+            let index = 0;
+            
+            function showNext() {
+                const { title, description } = data[index++];
+                if (index >= data.length) index = 0; 
+                titleElem.textContent = title;
+                typeDescription(description); 
+            }
+
+            
+            function typeDescription(text) {
+                descriptionElem.innerHTML = ""; 
+                for (let i = 0; i < text.length; i++) {
+                    setTimeout(() => {
+                        descriptionElem.innerHTML += text.charAt(i);
+
+                    }, i * 50); 
+                }
+            }
+
+            
+            showNext();
+
+        
+            setInterval(() => {
+                showNext();
+            }, 5000); 
+        }
+
+        
+        displayContent();
+    </script>
+</body>
+</html>

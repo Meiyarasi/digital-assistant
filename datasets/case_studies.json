@@ -1,0 +1,104 @@
+{
+    "case_studies": [
+        {
+            "title": "Roe v. Wade",
+            "outcome": "Supreme Court legalized abortion nationwide",
+            "explanation": "Established a woman's legal right to abortion under the Fourteenth Amendment to the Constitution.",
+            "facts": "Jane Roe challenged Texas laws banning abortion except to save a woman's life.",
+            "legal_issues": "Centered on the constitutional right to privacy and whether it applied to a woman's decision to terminate her pregnancy.",
+            "arguments": "Roe argued that the Texas laws violated her right to privacy; state argued that protecting prenatal life was a compelling state interest.",
+            "decision": "Supreme Court ruled 7-2 in favor of Roe, stating that the right to privacy encompasses a woman's decision to have an abortion.",
+            "citation": "Roe v. Wade, 410 U.S. 113 (1973)"
+        },
+        {
+            "title": "Brown v. Board of Education",
+            "outcome": "Supreme Court declared segregation in public schools unconstitutional",
+            "explanation": "Overturned the 'separate but equal' doctrine established in Plessy v. Ferguson.",
+            "facts": "Linda Brown was denied admission to a white school in Topeka, Kansas.",
+            "legal_issues": "Questioned whether racial segregation in public schools violated the Fourteenth Amendment's Equal Protection Clause.",
+            "arguments": "Brown argued that segregated schools were inherently unequal and deprived black children of equal educational opportunities.",
+            "decision": "Supreme Court unanimously ruled that segregated schools were unconstitutional, violating the Equal Protection Clause.",
+            "citation": "Brown v. Board of Education, 347 U.S. 483 (1954)"
+        },
+        {
+            "title": "Miranda v. Arizona",
+            "outcome": "Established Miranda rights",
+            "explanation": "Ensured that suspects must be informed of their rights before police interrogation.",
+            "facts": "Ernesto Miranda confessed to a crime without being informed of his Fifth Amendment rights.",
+            "legal_issues": "Focused on whether failure to inform suspects of their rights violated the Fifth Amendment protection against self-incrimination.",
+            "arguments": "Miranda argued that his confession was coerced; state argued that he had waived his rights.",
+            "decision": "Supreme Court ruled in favor of Miranda, stating that suspects must be informed of their rights before questioning.",
+            "citation": "Miranda v. Arizona, 384 U.S. 436 (1966)"
+        },
+        {
+            "title": "Gideon v. Wainwright",
+            "outcome": "Established the right to counsel for indigent defendants",
+            "explanation": "Held that the Sixth Amendment guarantees the right to counsel for all defendants, even those who cannot afford an attorney.",
+            "facts": "Clarence Gideon was denied a lawyer in a criminal trial and represented himself.",
+            "legal_issues": "Addressed whether states must provide counsel for defendants who cannot afford one.",
+            "arguments": "Gideon argued that he was denied a fair trial without an attorney; state argued that Florida law did not require counsel for his offense.",
+            "decision": "Supreme Court unanimously ruled in favor of Gideon, holding that the Sixth Amendment's right to counsel applies to state defendants through the Fourteenth Amendment.",
+            "citation": "Gideon v. Wainwright, 372 U.S. 335 (1963)"
+        },
+        {
+            "title": "Tinker v. Des Moines Independent Community School District",
+            "outcome": "Protected students' free speech rights",
+            "explanation": "Ruled that students do not lose their constitutional rights at the schoolhouse gate.",
+            "facts": "Students wore black armbands to protest the Vietnam War and were suspended.",
+            "legal_issues": "Examined whether the school's actions violated the students' First Amendment rights.",
+            "arguments": "Tinker argued that the school violated their freedom of speech; school argued that the armbands caused a disruption.",
+            "decision": "Supreme Court ruled in favor of Tinker, stating that students have the right to express opinions, even if unpopular, as long as it does not disrupt school activities.",
+            "citation": "Tinker v. Des Moines Independent Community School District, 393 U.S. 503 (1969)"
+        },
+        {
+            "title": "New York Times Co. v. United States",
+            "outcome": "Upheld freedom of the press",
+            "explanation": "Rejected government's attempt to prevent publication of classified Pentagon Papers.",
+            "facts": "Government sought to prevent New York Times and Washington Post from publishing classified documents on Vietnam War.",
+            "legal_issues": "Addressed whether prior restraint on publication violated the First Amendment.",
+            "arguments": "New York Times argued that the publication was in the public interest; government argued that it jeopardized national security.",
+            "decision": "Supreme Court ruled in favor of New York Times, stating that the government failed to meet the heavy burden of proving justification for prior restraint.",
+            "citation": "New York Times Co. v. United States, 403 U.S. 713 (1971)"
+        },
+        {
+            "title": "Bush v. Gore",
+            "outcome": "Ended the recount in Florida, effectively deciding the 2000 presidential election",
+            "explanation": "Halted manual recount in Florida, leading to George W. Bush winning the state and the presidency.",
+            "facts": "Dispute over recount in Florida, crucial to determining the winner of the presidential election.",
+            "legal_issues": "Focused on whether the Florida Supreme Court's recount order violated the Equal Protection Clause.",
+            "arguments": "Bush argued that the recount process lacked uniform standards; Gore argued for a recount to ensure all votes were counted.",
+            "decision": "Supreme Court ruled 5-4 in favor of Bush, stating that the Florida recount process violated the Equal Protection Clause.",
+            "citation": "Bush v. Gore, 531 U.S. 98 (2000)"
+        },
+        {
+            "title": "Citizens United v. Federal Election Commission",
+            "outcome": "Struck down restrictions on corporate and union campaign spending",
+            "explanation": "Ruled that corporations and unions can spend unlimited amounts on political campaigns, equating money with speech.",
+            "facts": "Citizens United sought to air a film critical of Hillary Clinton during the 2008 presidential campaign.",
+            "legal_issues": "Addressed whether restrictions on corporate and union spending on political ads violated the First Amendment.",
+            "arguments": "Citizens United argued that the restrictions infringed on free speech; government argued that they were necessary to prevent corruption.",
+            "decision": "Supreme Court ruled 5-4 in favor of Citizens United, stating that political spending is protected speech under the First Amendment.",
+            "citation": "Citizens United v. Federal Election Commission, 558 U.S. 310 (2010)"
+        },
+        {
+            "title": "Obergefell v. Hodges",
+            "outcome": "Legalized same-sex marriage nationwide",
+            "explanation": "Held that the Fourteenth Amendment requires all states to grant same-sex marriage licenses and recognize same-sex marriages performed in other states.",
+            "facts": "Several same-sex couples challenged state bans on same-sex marriage and refusal to recognize marriages performed in other states.",
+            "legal_issues": "Questioned whether state bans on same-sex marriage violated the Fourteenth Amendment's Equal Protection and Due Process Clauses.",
+            "arguments": "Plaintiffs argued that the bans deprived them of fundamental rights; states argued for the traditional definition of marriage.",
+            "decision": "Supreme Court ruled 5-4 in favor of Obergefell, holding that same-sex couples have the fundamental right to marry.",
+            "citation": "Obergefell v. Hodges, 576 U.S. 644 (2015)"
+        },
+        {
+            "title": "McDonald v. City of Chicago",
+            "outcome": "Applied Second Amendment right to bear arms to states",
+            "explanation": "Held that the Second Amendment's right to keep and bear arms applies to state and local governments.",
+            "facts": "Several Chicago residents challenged the city's handgun ban as violating the Second Amendment.",
+            "legal_issues": "Addressed whether the Second Amendment's right to bear arms is incorporated through the Fourteenth Amendment's Due Process Clause.",
+            "arguments": "McDonald argued that the handgun ban violated his Second Amendment rights; city argued for gun control measures to reduce crime.",
+            "decision": "Supreme Court ruled 5-4 in favor of McDonald, incorporating the Second Amendment right to bear arms against the states.",
+            "citation": "McDonald v. City of Chicago, 561 U.S. 742 (2010)"
+        }
+    ]
+}

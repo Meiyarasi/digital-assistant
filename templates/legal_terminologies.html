@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Terminologies</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Add custom styles here */
+        .list-group-item {
+            border: none;
+        }
+        .list-group-item strong {
+            font-weight: bold;
+        }
+        .list-group-item em {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Legal Terminologies</h1>
+        <ul class="list-group mt-3">
+            {% for term in terminologies %}
+                <li class="list-group-item">
+                    <strong>{{ term.term }}</strong>: {{ term.definition }}<br>
+                    <em>Example:</em> {{ term.example }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

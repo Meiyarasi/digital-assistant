@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Rights and Responsibilities</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-body h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .card-body ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .card-body ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Legal Rights and Responsibilities</h1>
+        <!-- Iterate over the JSON data to display legal rights and responsibilities -->
+        {% for category in legal_rights %}
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h2>{{ category['title'] }}</h2>
+                </div>
+                <div class="card-body">
+                    <h3>Rights:</h3>
+                    <ul>
+                        {% for right in category['rights'] %}
+                            <li>{{ right }}</li>
+                        {% endfor %}
+                    </ul>
+                    <h3>Responsibilities:</h3>
+                    <ul>
+                        {% for responsibility in category['responsibilities'] %}
+                            <li>{{ responsibility }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

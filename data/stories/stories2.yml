@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+- story: greet and inquire about IPC Section
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_ipc_section_dynamic
+  - action: action_query_ipc_section_info
+
+
+- story: express thanks
+  steps:
+  - intent: thank
+  - action: utter_thank

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        /* Custom styles can be added here */
+        body {
+            margin: 0;
+            padding: 0;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            height: 20vh;
+            /* background-color: #f4f4f4; */
+            /* background-image: url("neethi.jpg"); */
+            background-image: url('/static/images/justice.webp');
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+
+        }
+
+        .card-position-fixed {
+            position: fixed;
+            bottom: 30px;
+            top: 200px;
+            right: 50px;
+            width: 650px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card-position-fixed:hover {
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 10px 10px 0 0;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 15px;
+            height: 300px;
+            max-height: 500px;
+            overflow-y: auto;
+            
+        }
+
+        .card-footer {
+            border-top: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #chat-widget-input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        #chat-widget-input:focus {
+            border: 1px solid #007bff;
+        }
+        .chat-sign-button {
+            /* Add any custom styling for the chat button */
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+        }
+        .scrolling-div {
+            max-height: 500px; /* Set your desired maximum height */
+            overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+            border: 1px solid #ccc; /* Optional border for styling */
+            padding: 10px; /* Optional padding for styling */
+        }
+
+        .styled-heading {
+        opacity: 0;
+        margin-top: 0px; /* Adjust the top margin as needed */
+        text-align: center;
+        font-size: 3.5rem; /* Adjust the font size as needed */
+        font-weight: bold;
+        color: beige;
+        text-shadow: 4px 4px 8px rgba(245, 8, 8, 0.5); /* Add a subtle text shadow */
+        animation: fadeIn 1.5s ease-in-out forwards;
+        margin-left:50%;
+        /* margin-top: 0px; */
+
+    }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+
+        .logout-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        }
+
+        .logout-button:hover {
+            background-color: #d32f2f;
+        }
+        
+
+        .welcome-box{
+            margin-left: 56%;
+            margin-top: 15px;
+        }
+
+        #bouncing-button {
+        position: fixed;
+        top: 50px; /* Adjust as per your requirement */
+        left: 50%;
+        transform: translateX(-50%);
+        animation: bounce 1s infinite alternate;
+        }  
+
+        @keyframes bounce {
+        from {
+            top: 50px;
+        }
+        to {
+            top: 70px;
+        }
+        }
+
+
+
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/static/images/justice.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh; /* Adjust to fit content vertically */
+            }
+
+            h2{
+                font-size:1.8rem;
+                font-weight: bold;
+            }
+            .container {
+                padding: 15px; /* Add padding for better spacing */
+            }
+
+            .styled-heading {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+                color: rgb(14, 14, 5);
+                text-shadow: 4px 4px 8px rgba(245, 8, 8, 0.5);
+                margin-left: 10%;
+                margin-bottom: 25px;
+                margin-top: 7%;
+            }
+
+            .welcome-box {
+                text-align: center;
+                margin-top: 15px;
+                margin-left: 0%;
+            }
+
+            .logout-link {
+                text-align: right;
+                margin-top: 15px;
+            }
+
+            .card-position-fixed {
+                width: 90%; 
+                max-width: 600px; 
+                margin: 0 auto; /* Center horizontally */
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                transition: all 0.3s ease-in-out;
+                
+            }
+
+            .card-header {
+                border-radius: 10px 10px 0 0;
+                padding: 10px;
+                font-weight: bold;
+                background-color: #007bff;
+                color: #fff;
+                margin-left: 5%;
+            }
+
+            .card-body {
+                padding: 10px;
+                max-height: calc(100vh - 0px); /* Adjust max-height for smaller screens */
+                overflow-y: auto;
+                margin-left: 5%;
+            }
+
+            .card-footer {
+                border-top: 1px solid #ddd;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            #chat-widget-input {
+                width: calc(100% - 20px);
+                border-radius: 5px;
+                padding: 8px;
+                border: 1px solid #ccc;
+                outline: none;
+                margin-left: 5%;
+            }
+
+            .scrolling-div {
+                max-height:  calc(100vh - 0px); /* Adjust max-height for smaller screens */
+                overflow-y: auto;
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 0px;
+            }
+
+            .btn-for-learning {
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            
+            #bouncing-button{
+                margin-top: 70px;
+            }
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+ <h2>Welcome, {{ email }}</h2>
+ <a href="/learning_page" class="btn btn-primary" id="bouncing-button">For Learning 👉</a>
+
+ <!-- <button id="bouncing-button" class="btn btn-primary">For Learning 👉</button>   840px, justice connect=750px-->
+
+<div class="container-fluid">
+    <h1 class="mt-5 text-center styled-heading" > Justice Connect!</h1>
+    <div class="welcome-box" >
+    
+        <marquee behavior="scroll" direction="left" scrollamount="3" style="width: 500px;">
+            <span style="color: brown; font-weight: bold; font-size: 25px;">Information Technology (IT) Acts</span> |
+            <span style="color: darkgreen; font-weight: bold;font-size: 25px;">Right to Information (RTI) Acts</span> |
+            <span style="color: maroon; font-weight: bold;font-size: 25px;">Women's Acts</span> |
+            <span style="color: purple; font-weight: bold;font-size: 25px;">IPC Sections</span>
+        </marquee>                
+    </div>
+    <div class="logout-link">
+        <a href="/logout" class="logout-button" id="logout-button">Logout</a>
+    </div>
+    <br><br>
+    
+    <div id="chat-widget" class="card-position-fixed shadow d-none scrolling-div">
+        <div class="card-header bg-primary text-white">
+            Chatbot
+        </div>
+        <div class="card-body" id="chat-widget-messages">
+
+        </div>
+        <div class="card-footer">
+            <input type="text" class="form-control" id="chat-widget-input" placeholder="Type your message"><br>
+           
+            <button id="speech-to-text" class="btn btn-primary" style="margin-left: 10px;">🎤</button>
+            <button id="text-to-speech" class="btn btn-primary" style="margin-left: 10px;">🔊</button>
+            <button id="translate-btn" class="btn btn-primary" style="margin-left: 10px;">Translate</button>
+        </div>
+        
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    $(document).ready(function(){
+        // Load chat history from session storage when the page loads
+        loadChatHistory();
+
+        // Function to load chat history from session storage
+        function loadChatHistory() {
+            let chatHistory = JSON.parse(sessionStorage.getItem("chatHistory")) || [];
+            chatHistory.forEach(function(entry) {
+                $("#chat-widget-messages").append("<div><strong>" + entry.sender + ":</strong> " + entry.message + "</div>");
+            });
+        }
+
+        // Function to save chat message to session storage
+        function saveMessage(sender, message) {
+            let chatHistory = JSON.parse(sessionStorage.getItem("chatHistory")) || [];
+            chatHistory.push({ sender: sender, message: message });
+            sessionStorage.setItem("chatHistory", JSON.stringify(chatHistory));
+        }
+
+            // Function to clear chat history from session storage upon logout
+        function clearChatHistory() {
+            sessionStorage.removeItem("chatHistory");
+        }
+
+        
+        let recognition = null; // Declare recognition outside the function to be able to control it globally
+        let synth = window.speechSynthesis;
+        let utterance = new SpeechSynthesisUtterance();
+        utterance.onend = function() {
+            $("#text-to-speech").removeClass("active");
+        };
+
+        $("#chat-widget-button").on("click",function(){
+            $("#chat-widget").toggleClass("d-none")
+        });
+
+        $("#chat-widget-close-button").on("click",function(){
+            $("#chat-widget").addClass("d-none")
+        });
+
+        $("#chat-widget-input").keypress(function(event){
+            if(event.which === 13){
+                sendMessage();
+            }
+        });
+
+
+        $('#translate-btn').on('click', function() {
+                // Get the content of the div
+              
+                 new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ta,hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'translate-btn');
+                
+         });
+
+
+        $('#speech-to-text').click(function() {
+            if (!recognition) {
+                recognition = new webkitSpeechRecognition() || speechRecognition();
+                recognition.lang = 'en-US';
+                recognition.onresult = function(event) {
+                    const userMessage = event.results[0][0].transcript;
+                    $("#chat-widget-input").val(userMessage);
+                    sendMessage(); // Send the recognized speech as message
+                };
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error occurred: ' + event.error);
+                };
+            }
+            if ($("#speech-to-text").hasClass("active")) {
+                recognition.stop();
+                $("#speech-to-text").removeClass("active");
+            } else {
+                recognition.start();
+                $("#speech-to-text").addClass("active");
+            }
+        });
+
+        $('#text-to-speech').click(function() {
+            const botResponse = $('#chat-widget-messages').children().last().find('.bot-response').text();
+            if (botResponse) {
+                if ($("#text-to-speech").hasClass("active")) {
+                    synth.cancel();
+                    $("#text-to-speech").removeClass("active");
+                } else {
+                    utterance.text = botResponse;
+                    synth.speak(utterance);
+                    $("#text-to-speech").addClass("active");
+                }
+            }
+        });
+
+        function sendMessage() {
+            let userMessage = $("#chat-widget-input").val().trim();
+            $("#chat-widget-input").val("");
+
+            $("#chat-widget-messages").append("<div><strong>You:</strong> " + userMessage + "</div>");
+
+            // Save user message to session storage
+            saveMessage("User", userMessage);
+
+            // Send user message to the server and get bot's response
+            $.ajax({
+                type: "POST",
+                url: "/webhook",
+                contentType: "application/json",
+                data: JSON.stringify({message: userMessage}),
+                success: function(data){
+                    let botResponse = data.response;
+                    $("#chat-widget-messages").append("<div><strong>Bot:</strong> <span class='bot-response'>" + botResponse + "</span></div>");
+                    
+                    // Save bot response to session storage
+                    saveMessage("Bot", botResponse);
+
+                    if ($("#text-to-speech").hasClass("active")) {
+                        synth.cancel(); // Cancel the previous speech if it's playing
+                        utterance.text = botResponse;
+                        synth.speak(utterance);
+                    }
+                },
+                error: function(){
+                    // Handle error
+                }
+            });
+        }
+
+            // Clear chat history from session storage upon logout
+        $("#logout-button").click(function() {
+            clearChatHistory();
+        });
+
+
+    });
+
+    
+</script>
+
+</body>
+</html>

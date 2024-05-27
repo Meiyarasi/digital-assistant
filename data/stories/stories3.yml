@@ -1,0 +1,581 @@
+version: "3.1"
+
+stories:
+
+- story: explain_IT_acts
+  steps:
+  - intent: ask_about_it_act
+  - action: utter_explain_it_act
+  - action: utter_know_electronic_record
+  - intent: know_electronic_record
+  - action: utter_electronic_record
+
+- story: explain_IT_acts_no
+  steps:
+  - intent: ask_about_it_act
+  - action: utter_explain_it_act
+  - action: utter_know_electronic_record
+  - intent: next
+  - action: utter_goodbye
+
+- story: Authenticate electronic records guidance
+  steps:
+  - intent: authenticate_electronic_record
+  - action: utter_authenticate_electronic_record
+  - action: utter_known_terms
+  - intent: known_terms
+  - action: utter_terms_description
+
+- story: Authenticate electronic records guidance No
+  steps:
+  - intent: authenticate_electronic_record
+  - action: utter_authenticate_electronic_record
+  - action: utter_known_terms
+  - intent: next
+  - action: utter_goodbye
+
+- story: Verification of electronic records
+  steps:
+  - intent: verification_of_electronic_record
+  - action: utter_verification_of_electronic_record
+
+
+
+- story: Legal recognition of electronic records
+  steps:
+  - intent: legal_recognition_electronic_records
+  - action: utter_explain_legal_recognition_electronic_records
+
+- story: Legal recognition of electronic signatures
+  steps:
+  - intent: legal_recognition_electronic_signatures
+  - action: utter_explain_legal_recognition_electronic_signatures
+
+- story: Use of electronic records and signatures in government
+  steps:
+  - intent: use_electronic_records_signatures_government
+  - action: utter_explain_use_electronic_records_signatures_government
+
+- story: Retention of electronic records
+  steps:
+  - intent: retention_electronic_records
+  - action: utter_explain_retention_electronic_records
+
+- story: Electronic record attribution and acknowledgment
+  steps:
+  - intent: electronic_record_attribution
+  - action: utter_explain_record_attribution
+  - intent: acknowledgment_of_receipt
+  - action: utter_explain_receipt_acknowledgment
+
+- story: Originator stipulated acknowledgment requirement
+  steps:
+  - intent: electronic_record_attribution
+  - action: utter_explain_record_attribution
+  - intent: acknowledgment_of_receipt
+  - action: utter_explain_receipt_acknowledgment
+  - intent: stipulated_acknowledgment_requirement
+  - action: utter_explain_stipulated_acknowledgment
+
+- story: No stipulation for acknowledgment requirement
+  steps:
+  - intent: electronic_record_attribution
+  - action: utter_explain_record_attribution
+  - intent: acknowledgment_of_receipt
+  - action: utter_explain_receipt_acknowledgment
+  - intent: no_stipulation_acknowledgment
+  - action: utter_explain_no_stipulation_acknowledgment
+
+
+
+- story: Despatch and receipt of electronic records
+  steps:
+  - intent: electronic_record_attribution
+  - action: utter_explain_record_attribution
+  - intent: acknowledgment_of_receipt
+  - action: utter_explain_receipt_acknowledgment
+  - intent: despatch_and_receipt
+  - action: utter_explain_despatch_receipt
+
+- story: Secure electronic records guidance
+  steps:
+  - intent: secure_electronic_records
+  - action: utter_explain_secure_electronic_records
+
+- story: Ensure secure electronic signatures
+  steps:
+  - intent: secure_electronic_records
+  - action: utter_explain_secure_electronic_records
+  - intent: secure_electronic_signature
+  - action: utter_explain_secure_electronic_signature
+
+- story: Discuss security procedures and practices
+  steps:
+  - intent: secure_electronic_records
+  - action: utter_explain_secure_electronic_records
+  - intent: secure_electronic_signature
+  - action: utter_explain_secure_electronic_signature
+  - intent: security_procedures_practices
+  - action: utter_explain_security_procedures_practices
+
+- story: Implementing security measures
+  steps:
+  - intent: secure_electronic_records
+  - action: utter_explain_secure_electronic_records
+  - intent: secure_electronic_signature
+  - action: utter_explain_secure_electronic_signature
+  - intent: security_procedures_practices
+  - action: utter_explain_security_procedures_practices
+  - intent: thank
+  - action: utter_thank
+
+- story: Appointment of Controller and other officers
+  steps:
+  - intent: controller_appointment
+  - action: utter_explain_controller_appointment
+
+- story: Functions of Controller
+  steps:
+  - intent: controller_functions
+  - action: utter_explain_controller_functions
+
+- story: Recognition of foreign Certifying Authorities
+  steps:
+  - intent: foreign_authority_recognition
+  - action: utter_explain_foreign_authority_recognition
+
+- story: Licence to issue electronic signature Certificates
+  steps:
+  - intent: licence_application
+  - action: utter_explain_licence_application
+
+- story: Suspension or revocation of licence
+  steps:
+  - intent: licence_revocation
+  - action: utter_explain_licence_revocation
+
+- story: Certifying Authority's compliance with regulations
+  steps:
+  - intent: authority_compliance
+  - action: utter_explain_authority_compliance
+
+- story: Display of licence
+  steps:
+  - intent: display_licence_requirement
+  - action: utter_explain_display_licence
+
+- story: Surrender of licence
+  steps:
+  - intent: surrender_licence
+  - action: utter_explain_licence_surrender
+
+- story: Disclosure of information
+  steps:
+  - intent: disclosure_requirements
+  - action: utter_explain_disclosure_requirements
+
+- story: User seeks explanation for applying for a certificate
+  steps:
+  - intent: certificate_application
+  - action: utter_explain_certificate_application
+
+- story: User seeks explanation for representation in a certificate
+  steps:
+  - intent: certificate_representation
+  - action: utter_explain_certificate_representation
+
+- story: User seeks explanation for suspension of a certificate
+  steps:
+  - intent: certificate_suspension
+  - action: utter_explain_certificate_suspension
+
+- story: User seeks explanation for revocation of a certificate
+  steps:
+  - intent: certificate_revocation
+  - action: utter_explain_certificate_revocation
+
+- story: User seeks explanation for notice of suspension or revocation
+  steps:
+  - intent: notice_suspension_revocation
+  - action: utter_explain_notice_suspension_revocation
+
+- story: User asks about duties regarding generating a key pair
+  steps:
+  - intent: electronic_signature_certificate_duties
+  - action: utter_generate_key_pair_duties
+
+- story: User inquires about demonstrating acceptance of a Digital Signature Certificate
+  steps:
+  - intent: digital_signature_certificate_acceptance
+  - action: utter_acceptance_demonstration
+
+- story: User asks about responsibilities regarding control of private key
+  steps:
+  - intent: private_key_control
+  - action: utter_private_key_control_responsibilities
+
+- story: User seeks explanation on consequences of failing to protect private key
+  steps:
+  - intent: private_key_failure_consequences
+  - action: utter_private_key_failure_consequences
+
+- story: Access without Permission
+  steps:
+  - intent: unauthorized_access
+  - action: utter_unauthorized_access
+
+
+- story: Access without Permission Example
+  steps:
+  - intent: unauthorized_access_example
+  - action: utter_unauthorized_access_example
+
+
+- story: Intruduce Virus
+  steps:
+  - intent: introduce_virus
+  - action: utter_introduce_virus
+
+- story: Damage network
+  steps:
+  - intent: damage_computer_network
+  - action: utter_damage_computer_network
+
+- story: Demage network example
+  steps:
+  - intent: damage_to_system_example
+  - action: utter_damage_to_system_example
+
+- story: Failure to Protect Data Scenario
+  steps:
+  - intent: failure_to_protect_data
+  - action: utter_failure_to_protect_data_penalty
+
+- story: Failure to Protect Data Example
+  steps:
+  - intent: failure_to_protect_data_example
+  - action: utter_failure_to_protect_data_example
+
+
+- story: Adjudication Authority
+  steps:
+  - intent: adjudication_authority
+  - action: utter_adjudication_authority
+
+- story: Penalties Determination
+  steps:
+  - intent: penalties_determination
+  - action: utter_penalties_determination
+
+- story: User inquires about appealing to the Appellate Tribunal
+  steps:
+  - intent: appellate_tribunal_inquiry
+  - action: utter_explain_appeal_process
+
+- story: User asks about the time limit for filing an appeal
+  steps:
+  - intent: appeal_filing_time_limit
+  - action: utter_explain_appeal_time_limit
+
+- story: User seeks clarification on the post-appeal process
+  steps:
+  - intent: post_appeal_process
+  - action: utter_explain_post_appeal_process
+
+- story: User wants to know the timeframe for appeal resolution
+  steps:
+  - intent: appeal_resolution_timeframe
+  - action: utter_explain_appeal_resolution_timeframe
+
+- story: User queries about compounding contraventions
+  steps:
+  - intent: compounding_contraventions_inquiry
+  - action: utter_explain_compounding_contraventions
+
+- story: User asks about limitations on compounding contraventions
+  steps:
+  - intent: compounding_contraventions_limitations
+  - action: utter_explain_compounding_limitations
+
+- story: User asks about penalty_non_payment_consequences
+  steps:
+  - intent: penalty_non_payment_consequences
+  - action: utter_explain_penalty_non_payment_consequences
+
+- story: Tampering with Computer Source Code Conversation
+  steps:
+  - intent: tampering_with_source_code
+  - action: utter_explain_tampering
+
+- story: Computer related offences
+  steps:
+  - intent: Computer_Related_Offences
+  - action: utter_computer_related_offences
+
+- story: Sending offensive messages inquiry
+  steps:
+  - intent: Sending_Offensive_Messages
+  - action: utter_sending_offensive_messages_info
+
+- story: Punishment for receiving stolen computer resource
+  steps:
+  - intent: Punishment_Receiving_Stolen_Computer_Resource
+  - action: utter_Punishment_Receiving_Stolen_Computer_Resource
+
+- story: Punishment for identity theft
+  steps:
+  - intent: Punishment_Identity_Theft
+  - action: utter_Punishment_Identity_Theft
+
+- story: Punishment for cheating by personation
+  steps:
+  - intent: Punishment_Cheating_by_Personation
+  - action: utter_Punishment_Cheating_by_Personation
+
+- story: Punishment for violation of privacy
+  steps:
+  - intent: Punishment_Violation_of_Privacy
+  - action: utter_Punishment_Violation_of_Privacy
+
+- story: Punishment for cyber terrorism
+  steps:
+  - intent: Punishment_Cyber_Terrorism
+  - action: utter_Punishment_Cyber_Terrorism
+
+- story: Publish obscene material
+  steps:
+  - intent: obscene_material
+  - action: utter_obscene_material
+
+- story: Transmit sexually explicit content
+  steps:
+  - intent: sexually_explicit_content
+  - action: utter_sexually_explicit_content
+
+- story: Publish material depicting child exploitation
+  steps:
+  - intent: child_exploitation_content
+  - action: utter_child_exploitation_content
+
+
+- story: Exceptions to the law
+  steps:
+  - intent: exceptions_to_law
+  - action: utter_exceptions_to_law
+
+- story: Information retention requirements
+  steps:
+  - intent: information_retention
+  - action: utter_information_retention
+
+
+- story: Breach of confidentiality and privacy
+  steps:
+  - intent: breach_confidentiality_privacy
+  - action: utter_breach_confidentiality_privacy
+
+- story: Breach of contract disclosure
+  steps:
+  - intent: breach_contract_disclosure
+  - action: utter_breach_contract_disclosure
+
+
+- story: False electronic signature certificate
+  steps:
+  - intent: false_signature_certificate
+  - action: utter_false_signature_certificate
+
+- story: Reasons for false electronic signature certificate
+  steps:
+  - intent: reasons_false_signature_certificate
+  - action: utter_reasons_false_signature_certificate
+
+- story: Fraudulent electronic signature certificate
+  steps:
+  - intent: fraudulent_signature_certificate
+  - action: utter_fraudulent_signature_certificate
+
+- story: Controller directions
+  steps:
+  - intent: controller_directions
+  - action: utter_controller_directions
+
+- story: Interception, monitoring, decryption
+  steps:
+  - intent: interception_monitoring_decryption
+  - action: utter_interception_monitoring_decryption
+
+- story: Blocking public access
+  steps:
+  - intent: blocking_public_access
+  - action: utter_blocking_public_access
+
+- story: Monitoring traffic data
+  steps:
+  - intent: monitoring_traffic_data
+  - action: utter_monitoring_traffic_data
+
+- story: Declare protected system
+  steps:
+  - intent: declare_protected_system
+  - action: utter_declare_protected_system
+
+- story: Access protected system
+  steps:
+  - intent: access_protected_system
+  - action: utter_access_protected_system
+
+- story: Prescribe information security
+  steps:
+  - intent: prescribe_information_security
+  - action: utter_prescribe_information_security
+
+- story: Designate national nodal agency
+  steps:
+  - intent: designate_national_nodal_agency
+  - action: utter_designate_national_nodal_agency
+
+- story: Appoint Indian Computer Emergency Response Team
+  steps:
+  - intent: appoint_indian_computer_emergency_response_team
+  - action: utter_appoint_indian_computer_emergency_response_team
+
+- story: Duties of Indian Computer Emergency Response Team
+  steps:
+  - intent: duties_of_indian_computer_emergency_response_team
+  - action: utter_duties_of_indian_computer_emergency_response_team
+
+- story: Penalties for noncompliance
+  steps:
+  - intent: penalties_for_noncompliance
+  - action: utter_penalties_for_noncompliance
+
+
+- story: Penalty for misrepresentation
+  steps:
+  - intent: penalty_misrepresentation
+  - action: utter_penalty_misrepresentation
+
+
+- story: Apply to offence outside India
+  steps:
+  - intent: apply_to_offence_outside_india
+  - action: utter_apply_to_offence_outside_india
+
+- story: Confiscation of items
+  steps:
+  - intent: confiscation
+  - action: utter_confiscation
+
+
+- story: Compensation, penalties not to interfere
+  steps:
+  - intent: compensation_penalties_not_interfere
+  - action: utter_compensation_penalties_not_interfere
+
+- story: Compounding of offences
+  steps:
+  - intent: compounding_of_offences
+  - action: utter_compounding_of_offences
+
+- story: Bailable offences
+  steps:
+  - intent: bailable_offences
+  - action: utter_bailable_offences
+
+- story: Power to investigate offences
+  steps:
+  - intent: power_to_investigate_offences
+  - action: utter_power_to_investigate_offences
+
+
+- story: Exemption from liability
+  steps:
+  - intent: exemption_from_liability
+  - action: utter_exemption_from_liability
+
+- story: Notify Examiner of Electronic Evidence
+  steps:
+  - intent: notify_examiner_of_electronic_evidence
+  - action: utter_notify_examiner_of_electronic_evidence
+
+
+
+- story: Power of police officer and other officers
+  steps:
+  - intent: power_of_police_officer
+  - action: utter_power_of_police_officer
+
+- story: Act to have overriding effect
+  steps:
+  - intent: act_overriding_effect
+  - action: utter_act_overriding_effect
+
+- story: Application of the Act to electronic cheque and truncated cheque
+  steps:
+  - intent: apply_to_electronic_cheque
+  - action: utter_application_of_act_to_electronic_cheque
+
+
+- story: Controller, Deputy Controller and Assistant Controller to be public servants
+  steps:
+  - intent: controller_to_be_public_servant
+  - action: utter_controller_to_be_public_servant
+
+- story: Power to give directions
+  steps:
+  - intent: give_directions
+  - action: utter_power_to_give_directions
+
+- story: Protection of action taken in good faith
+  steps:
+  - intent: protection_of_action_taken
+  - action: utter_protection_of_action_taken_in_good_faith
+
+- story: Modes or methods for encryption
+  steps:
+  - intent: modes_or_methods_for_encryption
+  - action: utter_modes_or_methods_for_encryption
+
+- story: Punishment for abetment of offences
+  steps:
+  - intent: punishment_for_abetment
+  - action: utter_punishment_for_abetment_of_offences
+
+- story: Punishment for attempt to commit offences
+  steps:
+  - intent: punishment_for_attempt_to_commit_offences
+  - action: utter_punishment_for_attempt_to_commit_offences
+
+- story: Offences by companies
+  steps:
+  - intent: offences_by_companies
+  - action: utter_offences_by_companies
+
+- story: Removal of difficulties
+  steps:
+  - intent: removal_of_difficulties
+  - action: utter_removal_of_difficulties
+
+- story: Power of Central Government to make rules
+  steps:
+  - intent: power_of_central_govt_to_make_rules
+  - action: utter_power_of_central_government_to_make_rules
+
+- story: Power of Central Government to make rules
+  steps:
+  - intent: constitution_of_advisory_committee
+  - action: utter_constitution_of_advisory_committee
+
+- story: Power of Central Government to make rules
+  steps:
+  - intent: power_of_controller_to_make_regulations
+  - action: utter_power_of_controller_to_make_regulations
+
+- story: Power of Central Government to make rules
+  steps:
+  - intent: power_of_state_govt_to_make_rules
+  - action: utter_power_of_state_government_to_make_rules
+
+
+

@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you!
+    - thank you
+    - appreciated you
+    - many thanks
+
+
+- intent: inform_ipc_section_dynamic
+  examples: |
+    - Tell me about IPC Section [140](ipc_section)
+    - Explain IPC Section [140](ipc_section)
+    - What is the information on IPC Section [140](ipc_section)
+    - Explain the offense under IPC Section [140](ipc_section)
+    - What is the punishment for IPC Section [140](ipc_section)

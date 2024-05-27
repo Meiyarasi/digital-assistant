@@ -1,0 +1,196 @@
+{
+"FAQs": [
+    {
+        "question": "What is the difference between civil law and criminal law?",
+        "answer": "Civil law deals with disputes between individuals or organizations, while criminal law deals with offenses against the state."
+    },
+    {
+        "question": "How long does it take for a lawsuit to go to trial?",
+        "answer": "The timeline for a lawsuit to go to trial varies depending on the complexity of the case and the court's schedule."
+    },
+    {
+        "question": "What is the purpose of a will?",
+        "answer": "A will is a legal document that outlines how a person's assets and property should be distributed after their death."
+    },
+    {
+        "question": "What are the requirements for a contract to be legally binding?",
+        "answer": "A contract must involve an offer, acceptance, consideration, legal capacity, and legality of purpose to be legally binding."
+    },
+    {
+        "question": "What is the statute of limitations?",
+        "answer": "The statute of limitations is a legal time limit within which a lawsuit must be filed in order to be valid."
+    },
+    {
+        "question": "Can I get a divorce without going to court?",
+        "answer": "In some cases, couples may be able to obtain a divorce through mediation or collaborative law without going to court."
+    },
+    {
+        "question": "What is the difference between a misdemeanor and a felony?",
+        "answer": "A misdemeanor is a less serious criminal offense, while a felony is a more serious crime that is punishable by imprisonment for more than one year."
+    },
+    {
+        "question": "What rights do I have if I am arrested?",
+        "answer": "You have the right to remain silent, the right to an attorney, and the right to be informed of the charges against you."
+    },
+    {
+        "question": "How does child custody work in divorce cases?",
+        "answer": "Child custody arrangements are determined based on the best interests of the child, taking into account factors such as parental fitness, the child's preferences, and the parents' ability to cooperate."
+    },
+    {
+        "question": "What is the process for applying for a patent?",
+        "answer": "The process for applying for a patent involves conducting a patent search, preparing and filing a patent application, and undergoing examination by the patent office."
+    },
+    {
+        "question": "What is the difference between a trademark and a copyright?",
+        "answer": "A trademark is a symbol, word, or phrase used to identify a product or service, while a copyright protects original works of authorship such as books, music, and artwork."
+    },
+    {
+        "question": "Can I sue for defamation if someone spreads false rumors about me?",
+        "answer": "You may be able to sue for defamation if someone spreads false statements about you that harm your reputation."
+    },
+    {
+        "question": "What rights do tenants have regarding landlord-tenant disputes?",
+        "answer": "Tenants have rights regarding habitability, privacy, eviction procedures, security deposits, and protection from discrimination."
+    },
+    {
+        "question": "How does the legal system handle cases involving minors?",
+        "answer": "The legal system may appoint a guardian ad litem to represent the interests of minors in legal proceedings, and there are special rules and procedures for handling cases involving minors."
+    },
+    {
+        "question": "What is the process for obtaining a restraining order?",
+        "answer": "The process for obtaining a restraining order involves filing a petition with the court, providing evidence of harassment or abuse, and attending a hearing where a judge will decide whether to grant the restraining order."
+    },
+    {
+        "question": "What are my rights if I am stopped by the police?",
+        "answer": "You have the right to remain silent, the right to refuse consent to a search, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "How does bankruptcy work?",
+        "answer": "Bankruptcy is a legal process that allows individuals or businesses to eliminate or restructure their debts under the supervision of the bankruptcy court."
+    },
+    {
+        "question": "What is the process for filing a personal injury claim?",
+        "answer": "The process for filing a personal injury claim involves gathering evidence, calculating damages, negotiating with insurance companies, and possibly filing a lawsuit if a settlement cannot be reached."
+    },
+    {
+        "question": "What are my rights if I am a victim of domestic violence?",
+        "answer": "Victims of domestic violence have rights to protection orders, shelter, counseling, and legal assistance to ensure their safety and well-being."
+    },
+    {
+        "question": "What is the difference between a living will and a durable power of attorney for healthcare?",
+        "answer": "A living will is a legal document that outlines your wishes regarding medical treatment in the event you become incapacitated, while a durable power of attorney for healthcare appoints someone to make medical decisions on your behalf if you are unable to do so."
+    },
+    {
+        "question": "Can I be fired for whistleblowing?",
+        "answer": "It is illegal for employers to retaliate against employees for reporting illegal activities, safety violations, or other wrongdoing in the workplace."
+    },
+    {
+        "question": "What are my rights if I am stopped by the police?",
+        "answer": "You have the right to remain silent, the right to refuse consent to a search, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "How does bankruptcy work?",
+        "answer": "Bankruptcy is a legal process that allows individuals or businesses to eliminate or restructure their debts under the supervision of the bankruptcy court."
+    },
+    {
+        "question": "What is the process for filing a personal injury claim?",
+        "answer": "The process for filing a personal injury claim involves gathering evidence, calculating damages, negotiating with insurance companies, and possibly filing a lawsuit if a settlement cannot be reached."
+    },
+    {
+        "question": "What are my rights if I am a victim of domestic violence?",
+        "answer": "Victims of domestic violence have rights to protection orders, shelter, counseling, and legal assistance to ensure their safety and well-being."
+    },
+    {
+        "question": "What is the difference between a living will and a durable power of attorney for healthcare?",
+        "answer": "A living will is a legal document that outlines your wishes regarding medical treatment in the event you become incapacitated, while a durable power of attorney for healthcare appoints someone to make medical decisions on your behalf if you are unable to do so."
+    },
+    {
+        "question": "Can I be fired for whistleblowing?",
+        "answer": "It is illegal for employers to retaliate against employees for reporting illegal activities, safety violations, or other wrongdoing in the workplace."
+    },
+    {
+        "question": "What are my rights if I am arrested for driving under the influence (DUI)?",
+        "answer": "You have the right to remain silent, the right to refuse field sobriety tests, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "What is the difference between a living trust and a will?",
+        "answer": "A living trust is a legal document that holds assets during your lifetime and transfers them to beneficiaries upon your death without going through probate, while a will outlines your wishes for the distribution of your assets after your death and must go through probate."
+    },
+    {
+        "question": "Can I be deported if I am in the U.S. illegally?",
+        "answer": "Yes, you can be deported if you are in the U.S. illegally, but you may have options to seek relief from deportation through asylum, cancellation of removal, or other forms of relief."
+    },
+    {
+        "question": "What are my rights if I am pulled over for a traffic violation?",
+        "answer": "You have the right to remain silent, the right to refuse consent to a search, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "What is the process for obtaining a restraining order?",
+        "answer": "The process for obtaining a restraining order involves filing a petition with the court, providing evidence of harassment or abuse, and attending a hearing where a judge will decide whether to grant the restraining order."
+    },
+    {
+        "question": "Can I sue for defamation if someone spreads false rumors about me?",
+        "answer": "You may be able to sue for defamation if someone spreads false statements about you that harm your reputation."
+    },
+    {
+        "question": "What rights do tenants have regarding landlord-tenant disputes?",
+        "answer": "Tenants have rights regarding habitability, privacy, eviction procedures, security deposits, and protection from discrimination."
+    },
+    {
+        "question": "How does the legal system handle cases involving minors?",
+        "answer": "The legal system may appoint a guardian ad litem to represent the interests of minors in legal proceedings, and there are special rules and procedures for handling cases involving minors."
+    },
+    {
+        "question": "What is the process for obtaining a restraining order?",
+        "answer": "The process for obtaining a restraining order involves filing a petition with the court, providing evidence of harassment or abuse, and attending a hearing where a judge will decide whether to grant the restraining order."
+    },
+    {
+        "question": "What are my rights if I am stopped by the police?",
+        "answer": "You have the right to remain silent, the right to refuse consent to a search, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "How does bankruptcy work?",
+        "answer": "Bankruptcy is a legal process that allows individuals or businesses to eliminate or restructure their debts under the supervision of the bankruptcy court."
+    },
+    {
+        "question": "What is the process for filing a personal injury claim?",
+        "answer": "The process for filing a personal injury claim involves gathering evidence, calculating damages, negotiating with insurance companies, and possibly filing a lawsuit if a settlement cannot be reached."
+    },
+    {
+        "question": "What are my rights if I am a victim of domestic violence?",
+        "answer": "Victims of domestic violence have rights to protection orders, shelter, counseling, and legal assistance to ensure their safety and well-being."
+    },
+    {
+        "question": "What is the difference between a living will and a durable power of attorney for healthcare?",
+        "answer": "A living will is a legal document that outlines your wishes regarding medical treatment in the event you become incapacitated, while a durable power of attorney for healthcare appoints someone to make medical decisions on your behalf if you are unable to do so."
+    },
+    {
+        "question": "Can I be fired for whistleblowing?",
+        "answer": "It is illegal for employers to retaliate against employees for reporting illegal activities, safety violations, or other wrongdoing in the workplace."
+    },
+    {
+        "question": "What are my rights if I am stopped by the police?",
+        "answer": "You have the right to remain silent, the right to refuse consent to a search, and the right to request an attorney if you are being questioned by the police."
+    },
+    {
+        "question": "How does bankruptcy work?",
+        "answer": "Bankruptcy is a legal process that allows individuals or businesses to eliminate or restructure their debts under the supervision of the bankruptcy court."
+    },
+    {
+        "question": "What is the process for filing a personal injury claim?",
+        "answer": "The process for filing a personal injury claim involves gathering evidence, calculating damages, negotiating with insurance companies, and possibly filing a lawsuit if a settlement cannot be reached."
+    },
+    {
+        "question": "What are my rights if I am a victim of domestic violence?",
+        "answer": "Victims of domestic violence have rights to protection orders, shelter, counseling, and legal assistance to ensure their safety and well-being."
+    },
+    {
+        "question": "What is the difference between a living will and a durable power of attorney for healthcare?",
+        "answer": "A living will is a legal document that outlines your wishes regarding medical treatment in the event you become incapacitated, while a durable power of attorney for healthcare appoints someone to make medical decisions on your behalf if you are unable to do so."
+    },
+    {
+        "question": "Can I be fired for whistleblowing?",
+        "answer": "It is illegal for employers to retaliate against employees for reporting illegal activities, safety violations, or other wrongdoing in the workplace."
+    }
+]
+}
